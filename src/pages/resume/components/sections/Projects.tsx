@@ -37,17 +37,17 @@ export function Projects() {
             <ul className="list-disc list-outside ml-4 text-on-surface-variant mb-6 text-sm leading-relaxed space-y-2">
               <li>
                 <Trans i18nKey="resume.projects.p1B1">
-                  <strong className="text-on-surface">Kiến trúc Local Proxy Server:</strong> Triển khai local web server bằng thư viện shelf trên thiết bị để đánh chặn m3u8, hỗ trợ CDN Token Injection và Progressive HLS Segment Caching mượt mà như TikTok.
+                  <strong className="text-on-surface">Mobile Video Performance:</strong> Optimized feed rendering and playback lifecycle with pooled video controllers and bounded async initialization, delivering smooth scrolling and stable long-session playback while reducing CPU spikes and thermal risk.
                 </Trans>
               </li>
               <li>
                 <Trans i18nKey="resume.projects.p1B2">
-                  <strong className="text-on-surface">Tối ưu Pool & RAM:</strong> Xây dựng VideoPlayerPoolManager tái sử dụng controller cố định qua GetX, tự động giải tỏa imageCache/pause ngầm chủ động khi có áp lực bộ nhớ (didHaveMemoryPressure).
+                  <strong className="text-on-surface">Resource Management:</strong> Implemented multi-layer caching and network-aware video delivery (memory + disk cache, cache pruning, request optimization) to lower bandwidth usage, reduce local storage growth, and improve startup/playback consistency.
                 </Trans>
               </li>
               <li>
                 <Trans i18nKey="resume.projects.p1B3">
-                  <strong className="text-on-surface">Tải trước & Adaptive Bitrate:</strong> Thiết kế thuật toán tải trước thông minh sử dụng Epoch Tracking, nhường băng thông (Cooperative Bandwidth), CPU Yielding và tự động lựa chọn bitrate tối ưu nhất (ABR) theo tốc độ mạng thực tế.
+                  <strong className="text-on-surface">Playback Reliability:</strong> Added lifecycle-safe navigation and controller cleanup guards to prevent duplicate player instances, race conditions, and playback conflicts across screens.
                 </Trans>
               </li>
             </ul>
@@ -56,10 +56,10 @@ export function Projects() {
                 Flutter
               </span>
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Local Proxy Server
+                Video Performance
               </span>
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Video Player Pool
+                Caching System
               </span>
             </div>
           </div>
@@ -87,29 +87,29 @@ export function Projects() {
             <ul className="list-disc list-outside ml-4 text-on-surface-variant mb-6 text-sm leading-relaxed space-y-2">
               <li>
                 <Trans i18nKey="resume.projects.p2B1">
-                  <strong className="text-on-surface">Bảo mật 3DES & MD5 Signature:</strong> Áp dụng cơ chế mã hóa Triple DES (ECB Mode, PKCS7 Padding) kết hợp băm MD5 sinh Signature Token đính kèm header, chống giả mạo dữ liệu API tuyệt đối.
+                  <strong className="text-on-surface">Architecture & Maintenance:</strong> Restructured the application's codebase to enhance scalability, while actively maintaining and debugging the app to ensure stable, long-term performance.
                 </Trans>
               </li>
               <li>
                 <Trans i18nKey="resume.projects.p2B2">
-                  <strong className="text-on-surface">Tối ưu UI Form & Ảnh:</strong> Xây dựng ScrollToErrorMixin và ExpandController tự động hóa form dài. Tích hợp thuật toán nén ảnh theo chu kỳ (&lt; 300KB) đảm bảo chất lượng tải lên tối ưu.
+                  <strong className="text-on-surface">Performance Optimization:</strong> Built a robust local caching system and optimized network handling to significantly reduce redundant API requests, improving app responsiveness and reducing server load.
                 </Trans>
               </li>
               <li>
                 <Trans i18nKey="resume.projects.p2B3">
-                  <strong className="text-on-surface">Local Search & Timezone Noti:</strong> Phát triển thuật toán tìm kiếm cục bộ Zero Lag (Debounce 300ms + loại bỏ dấu) kết hợp đồng bộ hóa múi giờ để nhắc nhở lịch học chính xác.
+                  <strong className="text-on-surface">Release & Deployment:</strong> Handled regular version updates and managed the end-to-end deployment process on the Google Play Console.
                 </Trans>
               </li>
             </ul>
             <div className="flex flex-wrap gap-2">
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Triple DES / MD5
+                Flutter
               </span>
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                GetX
+                State Management
               </span>
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Zero Lag Search
+                API Integration
               </span>
             </div>
           </div>
@@ -135,91 +135,25 @@ export function Projects() {
               {t('resume.projects.p3Desc')}
             </p>
             <ul className="list-disc list-outside ml-4 text-on-surface-variant mb-6 text-sm leading-relaxed space-y-2">
-              <li>
-                <Trans i18nKey="resume.projects.p3B1">
-                  <strong className="text-on-surface">Offline-first:</strong> Xây dựng luồng dữ liệu (SQLite + in-memory cache) kết hợp với đồng bộ hóa ghi chép (write-through sync) lên Firebase Realtime Database.
-                </Trans>
-              </li>
-              <li>
-                <Trans i18nKey="resume.projects.p3B2">
-                  <strong className="text-on-surface">Chia sẻ & Deep link:</strong> Phát triển luồng chia sẻ thông qua deep link, mã QR và email. Triển khai định tuyến deep link mạnh mẽ và xử lý trình duyệt ngay trong ứng dụng (in-app browser).
-                </Trans>
-              </li>
-              <li>
-                <Trans i18nKey="resume.projects.p3B3">
-                  <strong className="text-on-surface">Bảo mật:</strong> Tích hợp xác thực mã PIN/Sinh trắc học.
-                </Trans>
-              </li>
-              <li>
-                <Trans i18nKey="resume.projects.p3B4">
-                  <strong className="text-on-surface">Tối ưu hóa:</strong> Phân tích cú pháp clipboard URL, tự động tìm nạp metadata, và cải tiến WebView.
-                </Trans>
-              </li>
+              <li>{t('resume.projects.p3B1')}</li>
+              <li>{t('resume.projects.p3B2')}</li>
+              <li>{t('resume.projects.p3B3')}</li>
+              <li>{t('resume.projects.p3B4')}</li>
+              <li>{t('resume.projects.p3B5')}</li>
+              <li>{t('resume.projects.p3B6')}</li>
             </ul>
             <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Hybrid Cache
-              </span>
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
                 Offline-First
               </span>
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
+                Deep Link
+              </span>
+              <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
                 Biometrics
               </span>
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal delay={0.3}>
-          <div 
-            className="bg-surface-container-low p-6 rounded-lg border border-outline-variant/15 hover:border-primary/30 transition-all group cursor-pointer"
-            onClick={() => navigate('/project/realjobs')}
-          >
-            <div className="flex justify-between items-start mb-6">
-              <div>
-                <div className="text-xs font-label uppercase tracking-widest text-secondary mb-1">
-                  {t('resume.projects.p4Type')}
-                </div>
-                <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">
-                  RealJobs
-                </h3>
-              </div>
-              <ArrowUpRight className="w-5 h-5 text-outline group-hover:text-primary transition-colors" />
-            </div>
-            <p className="text-on-surface-variant mb-4 text-sm leading-relaxed">
-              {t('resume.projects.p4Desc')}
-            </p>
-            <ul className="list-disc list-outside ml-4 text-on-surface-variant mb-6 text-sm leading-relaxed space-y-2">
-              <li>
-                <Trans i18nKey="resume.projects.p4B1">
-                  <strong className="text-on-surface">Kiến trúc Modular & Clean:</strong> Áp dụng Clean Architecture kết hợp GetX quản lý hơn 60 module màn hình độc lập, đảm bảo tính mở rộng và dễ dàng bảo trì.
-                </Trans>
-              </li>
-              <li>
-                <Trans i18nKey="resume.projects.p4B2">
-                  <strong className="text-on-surface">Quy trình Thực tập & Lịch Phỏng vấn:</strong> Số hóa toàn diện luồng kết nối và đánh giá thực tập 3 bên, kèm phân hệ scheduler thông minh cập nhật thời gian thực.
-                </Trans>
-              </li>
-              <li>
-                <Trans i18nKey="resume.projects.p4B3">
-                  <strong className="text-on-surface">Quản trị Multi-Flavors:</strong> Thiết lập cấu trúc Flavors (Dev, STG, Test, Prod) độc lập hoàn toàn về Bundle ID, cấu hình Firebase và App Icon bằng flutter_flavorizr.
-                </Trans>
-              </li>
-              <li>
-                <Trans i18nKey="resume.projects.p4B4">
-                  <strong className="text-on-surface">Khả năng Chịu tải Mạng & Bảo mật:</strong> Xây dựng AuthInterceptor kết hợp connectivity_plus tự động chặn/báo lỗi mất mạng và chuẩn hóa Payload Signature Token chống giả mạo API.
-                </Trans>
-              </li>
-            </ul>
-            <div className="flex flex-wrap gap-2">
               <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Modular Clean
-              </span>
-              <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                Multi-Flavor
-              </span>
-              <span className="px-3 py-1 bg-surface-container-highest/40 backdrop-blur-md rounded-full text-[0.6875rem] font-medium text-on-surface-variant border border-outline-variant/15">
-                GetX
+                SQLite
               </span>
             </div>
           </div>

@@ -4,7 +4,6 @@
  */
 
 import { TopNavBar } from "./components/layout/TopNavBar";
-import { SideNavBar } from "./components/layout/SideNavBar";
 import { Hero } from "./components/sections/Hero";
 import { Summary } from "./components/sections/Summary";
 import { Experience } from "./components/sections/Experience";
@@ -19,8 +18,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background text-on-surface font-body selection:bg-primary/30">
       <TopNavBar />
-      <SideNavBar />
-      <main className="lg:ml-64 pt-24 px-6 md:px-12 pb-20 max-w-6xl mx-auto">
+      <main className="pt-24 px-6 md:px-12 pb-20 max-w-6xl mx-auto">
         <Reveal>
           <Hero />
         </Reveal>
