@@ -1,0 +1,208 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "techStack": "Tech Stack",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "portfolio": {
+    "hero": {
+      "available": "Available for Projects",
+      "title": "Crafting Seamless <1>Mobile</1> Experiences with Flutter",
+      "description": "Hi, I'm Pham Phuoc Truong. A dedicated Mobile Developer specialized in building high-performance, cross-platform applications. I turn complex ideas into elegant, fluid, and user-friendly digital realities.",
+      "viewWork": "View My Work",
+      "letsTalk": "Let's Talk",
+      "perfScore": "Performance Score"
+    },
+    "about": {
+      "title": "Bridging Sophistication with <1>Simplicity</1>",
+      "p1": "A proficient Mobile Developer with a strong technical foundation in cross-platform mobile development. Possess deep and proven expertise in software architecture, clean code organization, and applying OOP, SOLID principles to build scalable and maintainable solutions.",
+      "p2": "Highly skilled in analyzing UI/UX requirements and leveraging modern frameworks like <1>Flutter</1> to deliver intuitive, high-performance, and user-centric mobile experiences."
+    },
+    "tech": {
+      "title": "The Laboratory",
+      "subtitle": "The tools and frameworks I use to engineer performance-driven apps.",
+      "frameworks": "Frameworks & Languages",
+      "state": "State Management",
+      "backend": "Backend & APIs",
+      "architecture": "Architecture",
+      "specialties": "Specialties",
+      "tools": "Tools"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Experimental builds and client solutions.",
+      "filterAll": "ALL",
+      "p1Type": "Multi-Channel Educational Social Network (Google Play)",
+      "p1Desc": "Multi-channel educational social network integrating Q&A, e-Learning, AI ChatBot, and an ultra-optimized short-video delivery engine.",
+      "p2Type": "Super App Portal & Academic Management (Google Play)",
+      "p2Desc": "A Super App serving tens of thousands of Duy Tan University students & lecturers. Integrates unified management of academics, teaching, finance, and 3DES security.",
+      "p3Type": "Utility (Google Play)",
+      "p3Desc": "Premium 'Digital Curator' app for managing links. Integrates a 2-layer Hybrid Cache for 0ms UI latency, biometric security, offline-first synchronization, and a built-in Webview ad-blocker.",
+      "p4Type": "Recruitment & Educational Ecosystem",
+      "p4Desc": "A comprehensive, multi-role mobile ecosystem for candidates, employers, and universities. Features end-to-end internship management, multi-flavoring, and Modular Clean Architecture for large-scale applications."
+    },
+    "contact": {
+      "title": "Let's Build Something <1>Great</1> Together.",
+      "desc": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!",
+      "email": "Email Me",
+      "website": "GitHub"
+    },
+    "footer": {
+      "copyright": "© 2026 Pham Phuoc Truong. Built with Flutter & Precision."
+    }
+  },
+  "resume": {
+    "nav": {
+      "portfolio": "Back to Portfolio"
+    },
+    "hero": {
+      "title": "Mobile Developer",
+      "location": "278A Hung Loi, Ninh Kieu, Can Tho",
+      "website": "github.com/roll-t"
+    },
+    "summary": {
+      "title": "Professional Summary",
+      "p1": "A dedicated <1>Mobile Developer</1> with a strong technical foundation in cross-platform application development.",
+      "p2": "Possess deep and proven expertise in <1>software architecture</1>, clean code organization, and applying OOP, SOLID principles to build scalable and maintainable solutions.",
+      "p3": "Highly skilled in analyzing UI/UX requirements and leveraging modern frameworks like <1>Flutter</1> to deliver intuitive, high-performance, and user-centric mobile experiences."
+    },
+    "experience": {
+      "title": "Work Experience",
+      "role": "Mobile Developer",
+      "date": "May 2024 - Present",
+      "bullet1": "Handled complex multimedia streaming requirements by implementing <1>HTTP Live Streaming (HLS)</1>, creating local proxies on devices, and building robust network/caching mechanisms to ensure uninterrupted video playback.",
+      "bullet2": "Designed and built high-performance <1>video feed</1> features, significantly optimizing scroll smoothness and minimizing video pre-load sizes to deliver seamless user experiences.",
+      "bullet3": "Designed scalable and easily maintainable source code architectures by strictly applying <1>OOP and SOLID</1> principles.",
+      "bullet4": "Analyzed UI/UX requirements and optimized application interfaces to provide intuitive and highly responsive designs.",
+      "bullet5": "Developed, deployed, and maintained cross-platform mobile applications, ensuring overall high performance, stability, and smooth user experiences.",
+      "bullet6": "Actively participated in continuous application maintenance, including thorough debugging, performance monitoring, and resolving <1>Google Play</1> policy compliance issues to ensure smooth updates."
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "p1Type": "Multi-Channel Educational Social Network (Google Play)",
+      "p1Desc": "An all-in-one educational social platform integrating Q&A, e-Learning, Livestreaming, AI ChatBot, and high-performance short-video feeds.",
+      "p1B1": "<1>Local Proxy Architecture:</1> Engineered an on-device Local HTTP Proxy Server using shelf for CDN Token Injection and Progressive HLS Segment Caching, achieving TikTok-like performance.",
+      "p1B2": "<1>Memory & Pool Management:</1> Created a VideoPlayerPoolManager utilizing recycled controllers via GetX and actively releasing RAM (didHaveMemoryPressure) to eliminate UI jank and memory leaks.",
+      "p1B3": "<1>Advanced Orchestration & ABR:</1> Implemented Epoch Tracking, Cooperative Bandwidth Allocation, and Adaptive Bitrate (ABR) selection driven by real-time Network-Aware optimizations.",
+      "p2Type": "Super App Portal & Academic Management (Google Play)",
+      "p2Desc": "A comprehensive cross-platform Super App serving tens of thousands of students and lecturers, synchronizing academic workflows, teaching schedules, and real-time timetables.",
+      "p2B1": "<1>3DES & MD5 Signature Security:</1> Implemented Triple DES encryption (ECB Mode, PKCS7 Padding) combined with MD5 hashing for Header-attached Signature Tokens, preventing API tampering.",
+      "p2B2": "<1>Form & Image UI Optimization:</1> Developed custom ScrollToErrorMixin and ExpandController for complex, multi-tiered forms. Built cyclic image compression (<300KB) ensuring optimal upload efficiency.",
+      "p2B3": "<1>Local Search & Timezone Sync:</1> Developed a high-performance Zero Lag local search (300ms Debounce + Diacritics Removal) and integrated timezone-aware scheduled notification engines.",
+      "p3Type": "Digital Curator & Link Management (Google Play)",
+      "p3Desc": "A premium cross-platform 'Digital Curator' designed to optimize, organize, and secure the bookmarking experience.",
+      "p3B1": "<1>2-Layer Hybrid Cache:</1> Built a SQLite + In-Memory Reactive data stream, processing queries and pagination instantly in RAM to achieve 0ms UI response time.",
+      "p3B2": "<1>Offline-First Sync:</1> Designed SessionSyncService with a Queue-based service, serializing offline queues to GetStorage for reliable background sync once online.",
+      "p3B3": "<1>Dual-Layer Security:</1> Combined Biometrics (Face ID/Fingerprint) with a dynamic secure PIN for private categories, hiding sensitive data from general feeds.",
+      "p3B4": "<1>System Integration:</1> Integrated Receive Intent for Share Sheet capture, regex clipboard parsing, Open Graph scraping, and JavaScript-injected Webview ad-blocking.",
+      "p4Type": "Recruitment & Educational Ecosystem",
+      "p4Desc": "An all-in-one, multi-role recruitment and educational mobile ecosystem bridging Candidates, Employers, and Universities built on Flutter.",
+      "p4B1": "<1>Modular Clean Architecture:</1> Engineered a large-scale app with 60+ modules using Clean Architecture & GetX, sustaining ease of maintenance and robust scaling.",
+      "p4B2": "<1>Internships & Interview Scheduler:</1> Digitalized the end-to-end internship evaluation processes and integrated a real-time intuitive interview scheduler.",
+      "p4B3": "<1>Automated Multi-Flavors:</1> Established environment flavoring (Dev, STG, Test, Prod) dynamically managing Application IDs, assets, and Firebase configurations.",
+      "p4B4": "<1>Network Stability & Protection:</1> Built custom AuthInterceptors with connectivity_plus to auto-manage interruptions and leveraged dynamic API Payload Signatures."
+    },
+    "skills": {
+      "title": "Technical Proficiency",
+      "stack": "Tech Stack",
+      "skill1": "Mobile Development (Flutter/Dart, Android Native)",
+      "skill2": "State Management (GetX, BLOC)",
+      "skill3": "Networking, Data & Video Performance"
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor of Engineering in Information Systems",
+      "school": "Can Tho University",
+      "desc": "<1>Related Courses:</1> Object-Oriented Programming (OOP), Software Architecture, System Analysis and Design, Database Management."
+    },
+    "languages": {
+      "title": "Languages",
+      "en": "English",
+      "enLevel": "Professional",
+      "vi": "Vietnamese",
+      "viLevel": "Native"
+    }
+  },
+  "projectDetails": {
+    "common": {
+      "back": "Back to Portfolio",
+      "role": "Role",
+      "duration": "Duration",
+      "techStack": "Tech Stack",
+      "overview": "Project Overview",
+      "challenge": "Technical Challenge",
+      "solution": "Implementation & Solution",
+      "visitApp": "Visit Google Play",
+      "timeline": "Timeline"
+    },
+    "click-ed": {
+      "title": "CLICK-Ed",
+      "subtitle": "Multi-Channel Educational Social Network & Optimized Short-Video Platform",
+      "role": "Flutter Mobile Developer",
+      "duration": "2024 (6 months)",
+      "overview": "CLICK-Ed is a comprehensive, multi-channel educational social network integrating a Q&A platform, professional e-Learning system, live streaming, and a high-engagement short-video experience. It features advanced modules like E-Wallet & Monetization, an AI ChatBot, an educational Marketplace, and a fully featured social interaction layer.",
+      "challenge": "The short-video module represents extreme technical complexity, mirroring architectures like TikTok. The primary challenges involved eliminating UI jank, preventing memory leaks, and optimizing playback smoothness over unstable or slow mobile network conditions.",
+      "solution": "I engineered a Local HTTP Proxy Server using shelf on-device for CDN token injection and progressive caching. Developed a custom Video Player Pool Manager via GetX with active memory pressure recycling. Orchestrated an intelligent preloading system leveraging Epoch Tracking, Cooperative Bandwidth Allocation, Network-Aware optimization, and dynamic Adaptive Bitrate (ABR) streaming.",
+      "features": [
+        "Comprehensive Q&A and e-Learning ecosystem with AI ChatBot support",
+        "Local HTTP Proxy Server architecture for Progressive HLS Segment Caching",
+        "Video Player Pool Manager for controller recycling & active memory release",
+        "Advanced Preload Orchestration using Epoch Tracking & Cooperative Bandwidth",
+        "Network-Aware Adaptive Bitrate (ABR) optimization & CPU Yielding",
+        "In-app E-Wallet, membership subscriptions, and educational Marketplace"
+      ]
+    },
+    "mydtu": {
+      "title": "MYDTU MOBILE APP",
+      "subtitle": "Super App - Multifunctional Integration Portal & Real-Time Synchronization",
+      "role": "Flutter Mobile Developer",
+      "duration": "2023 (8 months)",
+      "overview": "MyDTU is a Super App – a multifunctional integrated portal serving tens of thousands of students and faculty members at Duy Tan University. The application comprehensively synchronizes academic management, teaching schedules, multi-tiered profile lookups, financial tracking, and personal calendars in real-time, featuring a dynamic role-based authorization system that adapts automatically to user personas.",
+      "challenge": "The primary challenges involved dealing with highly complex data input forms (multi-tiered profiles) causing user friction, securing API transmission channels against unauthorized manipulation, and engineering local search mechanisms across massive data blocks without introducing UI jank.",
+      "solution": "I developed a Form Automation Mixin (ScrollToError) and ExpandController to streamline complex input workflows. For network security, I enforced Triple DES (3DES - ECB - PKCS7) with MD5 hashing for Header Signature Tokens. Furthermore, I architected a Zero Lag Local Search Algorithm utilizing Debouncing and Diacritics Removal, supported by a Centralized Dio Client optimized via concurrency with Future.wait.",
+      "features": [
+        "Multi-tiered profile management & parallel dependent province/district selectors",
+        "Comprehensive Academic Management for students (Registration, Transcripts, Fees)",
+        "Advanced Teaching Management for lecturers (Class roster, Grades, Schedule swaps)",
+        "Dynamic Role-Based System adapting layout and menus based on user permission level",
+        "Anti-tampering security via 3DES encryption & MD5 Signature Token in API headers",
+        "Timezone-Aware Notifications engine for precise, localized academic scheduling"
+      ]
+    },
+    "linkeep": {
+      "title": "Linkeep",
+      "subtitle": "Premium Digital Curator & High-Performance Link Manager",
+      "role": "Lead Flutter Developer",
+      "duration": "2023 (5 months)",
+      "overview": "A premium cross-platform mobile application (Android & iOS) designed as a 'Digital Curator' to help users manage, categorize, and optimize their bookmark experience with ultra-high performance, biometric security, and offline-first synchronization.",
+      "challenge": "Minimizing query latency when handling thousands of link records and performing real-time searches, while ensuring completely smooth and robust data synchronization in unstable network environments.",
+      "solution": "I architected a 2-Layer Hybrid Cache (Write-Through Caching) system merging SQLite with an In-memory Reactive Cache for 0ms responsiveness. I implemented a SessionSyncService utilizing an In-memory Queue serialized to GetStorage for automatic, resilient background sync. Additionally, I engineered an advanced internal Ad-Blocker via JS DOM Removal inside InAppWebView, and leveraged deep OS integration (Receive Intent) for seamless, instant share sheet capturing.",
+      "features": [
+        "High-End Dark Mode design system using Tonal Layering & Glassmorphism",
+        "Smart Content Aggregator with automatic Open Graph scraping & auto-categorization",
+        "Advanced Web Viewer with internal Ad-Blocker using JS DOM Removal",
+        "Dual-Layer Security: Biometric Authentication (Local Auth) & dynamic secure PIN",
+        "Deep OS integration via Receive Intent to capture links directly from the Share Sheet"
+      ]
+    },
+    "realjobs": {
+      "title": "RealJobs",
+      "subtitle": "Mobile Recruitment & Educational Connections Ecosystem",
+      "role": "Flutter Mobile Developer",
+      "duration": "2024 (8 months)",
+      "overview": "RealJobs is a comprehensive recruitment and educational ecosystem tailored for iOS & Android. It serves as a multi-dimensional bridge between Employers, Students/Candidates, Universities/Instructors, and Alumni. The platform handles the entire lifecycle from job searches and internships to interview scheduling, academic evaluations, and corporate HR management.",
+      "challenge": "The key challenges included developing, testing, and managing an extremely large-scale app with 60+ independent screen modules and complex role-based authorization. It required high network resilience, robust multi-environment configuration, and strict security protocols.",
+      "solution": "I implemented Modular Clean Architecture & GetX for robust, scalable application structures. Configured four distinct environments (Dev/STG/Test/Prod) via flutter_flavorizr. Built custom AuthInterceptors paired with connectivity_plus for network resiliency and offline safety checks. Leveraged secure API Payload Signatures, custom HTML editors, and refined UX through custom shimmer effects.",
+      "features": [
+        "Dynamic Multi-role Ecosystem with distinct, access-controlled interfaces",
+        "Advanced Job & Recruitment Management with multi-format CV support and batch approvals",
+        "End-to-End Internship Ecosystem digitalizing 3-way evaluation workflows (Uni-Employer-Student)",
+        "Smart Interview & Slot Scheduler integrated with recruitment event feeds",
+        "Multi-channel Communications featuring in-app messaging, emails, and activity logging",
+        "Highly scalable Modular Clean Architecture with 60+ production-grade screen modules"
+      ]
+    }
+  }
+}

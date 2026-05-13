@@ -1,27 +1,31 @@
 import { motion } from 'motion/react';
 import { Gauge } from 'lucide-react';
 import { Reveal } from '../ui/Reveal';
+import { useTranslation, Trans } from 'react-i18next';
 
 export function Hero() {
+  const { t } = useTranslation();
   return (
     <section className="relative min-h-[819px] flex items-center px-8 max-w-7xl mx-auto overflow-hidden">
       <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
         <Reveal className="z-10">
           <span className="inline-block px-3 py-1 rounded-full bg-secondary-container/20 text-secondary text-xs font-bold tracking-widest uppercase mb-6">
-            Available for Projects
+            {t('portfolio.hero.available')}
           </span>
           <h1 className="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter mb-6">
-            Crafting Seamless <span className="text-primary italic">Mobile Experiences</span> with Flutter
+            <Trans i18nKey="portfolio.hero.title">
+              Crafting Seamless <span className="text-primary italic">Mobile</span> Experiences with Flutter
+            </Trans>
           </h1>
           <p className="text-lg md:text-xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
-            Hi, I'm Phuoc Truong. A dedicated Mobile Developer specialized in building high-performance, cross-platform applications. I turn complex ideas into elegant, fluid, and user-friendly digital realities.
+            {t('portfolio.hero.description')}
           </p>
           <div className="flex flex-wrap gap-4">
-            <a className="px-8 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-bold rounded-md shadow-[0px_10px_20px_rgba(5,_84_215_0.3)] hover:shadow-[0px_15px_30px_rgba(5,_84_215_0.4)] transition-all btn-hover-effect" href="#projects">
-              View My Work
+            <a className="px-8 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-bold rounded-md shadow-[0px_10px_20px_rgba(255,_77,_77,_0.3)] hover:shadow-[0px_15px_30px_rgba(255,_77,_77,_0.4)] transition-all btn-hover-effect" href="#projects">
+              {t('portfolio.hero.viewWork')}
             </a>
             <a className="px-8 py-4 border border-outline-variant/20 text-primary font-headline font-bold rounded-md hover:bg-surface-variant/30 transition-all btn-hover-effect" href="#contact">
-              Let's Talk
+              {t('portfolio.hero.letsTalk')}
             </a>
           </div>
         </Reveal>
@@ -64,7 +68,7 @@ export function Hero() {
                 <Gauge className="text-secondary w-6 h-6" />
               </div>
               <div>
-                <div className="text-xs text-on-surface-variant">Performance Score</div>
+                <div className="text-xs text-on-surface-variant">{t('portfolio.hero.perfScore')}</div>
                 <div className="text-xl font-bold font-headline text-secondary">99.9%</div>
               </div>
             </div>

@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background text-on-surface font-body selection:bg-primary/30">
       <TopNavBar />
-      {/* <SideNavBar /> */}
+      <SideNavBar />
       <main className="lg:ml-64 pt-24 px-6 md:px-12 pb-20 max-w-6xl mx-auto">
         <Reveal>
           <Hero />

@@ -1,5 +1,6 @@
 import { Terminal, Code } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { LanguageSwitcher } from "../../../../components/LanguageSwitcher";
 
 export function TopNavBar() {
   const navigate = useNavigate();
@@ -14,6 +15,7 @@ export function TopNavBar() {
           PHAM PHUOC TRUONG
         </button>
         <div className="flex items-center gap-4">
+          <LanguageSwitcher />
           <div className="flex gap-2">
             <Terminal className="w-9 h-9 text-primary p-2 hover:bg-white/5 rounded-full transition-all duration-300 cursor-pointer" />
             <Code className="w-9 h-9 text-primary p-2 hover:bg-white/5 rounded-full transition-all duration-300 cursor-pointer" />
@@ -21,7 +23,7 @@ export function TopNavBar() {
           <a
             href="/phuoc_truong_cv.pdf"
             download
-            className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-5 py-2 rounded-md font-medium active:scale-95 duration-200 shadow-[0_10px_20px_rgba(5,84,215,0.3)] hover:opacity-90"
+            className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-5 py-2 rounded-md font-medium active:scale-95 duration-200 shadow-[0_10px_20px_rgba(255,77,77,0.3)] hover:opacity-90"
           >
             Download CV
           </a>

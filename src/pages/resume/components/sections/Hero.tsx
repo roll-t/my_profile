@@ -1,31 +1,39 @@
 import { MapPin, Phone, Mail, Globe } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function Hero() {
+  const { t } = useTranslation();
   return (
     <section className="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
         <h1 className="font-headline text-5xl md:text-7xl font-bold text-on-surface tracking-tighter mb-4 leading-none">
-          Phuoc <span className="text-primary">Truong</span>
+          Phạm Phước <span className="text-primary">Trường</span>
         </h1>
-        <h2 className="font-headline text-xl md:text-2xl text-secondary mb-8 font-medium">
-          Flutter Developer & Software Architect
+        <h2 className="font-headline text-xl md:text-2xl text-secondary mb-8 font-medium uppercase">
+          {t('resume.hero.title')}
         </h2>
         <div className="space-y-3 font-body text-on-surface-variant">
           <div className="flex items-center gap-3">
             <MapPin className="w-5 h-5 text-primary" />
-            <span>Ninh Kieu, Can Tho, Vietnam</span>
+            <span>{t('resume.hero.location')}</span>
           </div>
           <div className="flex items-center gap-3">
             <Phone className="w-5 h-5 text-primary" />
-            <span>(+84) 939 527 343</span>
+            <a href="tel:0812608562" className="hover:text-primary transition-colors">
+              0812608562
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <Mail className="w-5 h-5 text-primary" />
-            <span>phuoctruong.dev@gmail.com</span>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=phuoctruong727@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              phuoctruong727@gmail.com
+            </a>
           </div>
           <div className="flex items-center gap-3">
             <Globe className="w-5 h-5 text-primary" />
-            <span>phuoctruong.id.vn</span>
+            <a href={`https://${t('resume.hero.website')}`} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              {t('resume.hero.website')}
+            </a>
           </div>
         </div>
       </div>

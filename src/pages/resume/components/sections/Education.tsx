@@ -1,21 +1,23 @@
 import { GraduationCap } from "lucide-react";
+import { useTranslation, Trans } from "react-i18next";
 
 export function Education() {
+  const { t } = useTranslation();
   return (
     <section>
       <h2 className="font-headline text-xl font-bold mb-6 flex items-center gap-3">
         <GraduationCap className="w-6 h-6 text-primary" />
-        Education
+        {t('resume.education.title')}
       </h2>
       <div className="bg-surface-container-low p-6 rounded-lg border border-outline-variant/15">
         <h4 className="text-on-surface font-bold mb-1">
-          Bachelor of Engineering
+          {t('resume.education.degree')}
         </h4>
-        <p className="text-primary text-sm mb-4">Can Tho University</p>
+        <p className="text-primary text-sm mb-4">{t('resume.education.school')}</p>
         <p className="text-on-surface-variant text-sm leading-relaxed">
-          Major: <span className="text-on-surface">Information Systems</span>.
-          Focused on software engineering principles, database design,
-          and mobile application development.
+          <Trans i18nKey="resume.education.desc">
+            <strong className="text-on-surface">Các môn học liên quan:</strong> Lập trình hướng đối tượng (OOP), Kiến trúc phần mềm, Phân tích và Thiết kế Hệ thống, Quản trị Cơ sở dữ liệu.
+          </Trans>
         </p>
       </div>
     </section>

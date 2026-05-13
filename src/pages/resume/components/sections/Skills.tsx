@@ -1,27 +1,20 @@
 import { Brain } from "lucide-react";
 import { Reveal } from "../../../portfolio/components/ui/Reveal";
+import { useTranslation } from "react-i18next";
 
 export function Skills() {
+  const { t } = useTranslation();
   return (
     <>
       <Reveal>
         <section className="bg-surface-container p-8 rounded-xl border border-outline-variant/15 mb-12">
           <h3 className="font-headline text-sm uppercase tracking-widest text-primary mb-8">
-            Technical Proficiency
+            {t('resume.skills.title')}
           </h3>
           <div className="space-y-8">
             <div>
               <div className="flex justify-between text-xs font-label text-on-surface-variant mb-2">
-                <span>Flutter & Dart</span>
-                <span className="text-secondary">98%</span>
-              </div>
-              <div className="h-1 w-full bg-outline-variant/20 rounded-full overflow-hidden">
-                <div className="h-full bg-secondary w-[98%]"></div>
-              </div>
-            </div>
-            <div>
-              <div className="flex justify-between text-xs font-label text-on-surface-variant mb-2">
-                <span>State Management (GetX/Bloc)</span>
+                <span>{t('resume.skills.skill1')}</span>
                 <span className="text-secondary">95%</span>
               </div>
               <div className="h-1 w-full bg-outline-variant/20 rounded-full overflow-hidden">
@@ -30,11 +23,20 @@ export function Skills() {
             </div>
             <div>
               <div className="flex justify-between text-xs font-label text-on-surface-variant mb-2">
-                <span>CI/CD & Deployment</span>
-                <span className="text-secondary">88%</span>
+                <span>{t('resume.skills.skill2')}</span>
+                <span className="text-secondary">90%</span>
               </div>
               <div className="h-1 w-full bg-outline-variant/20 rounded-full overflow-hidden">
-                <div className="h-full bg-secondary w-[88%]"></div>
+                <div className="h-full bg-secondary w-[90%]"></div>
+              </div>
+            </div>
+            <div>
+              <div className="flex justify-between text-xs font-label text-on-surface-variant mb-2">
+                <span>{t('resume.skills.skill3')}</span>
+                <span className="text-secondary">85%</span>
+              </div>
+              <div className="h-1 w-full bg-outline-variant/20 rounded-full overflow-hidden">
+                <div className="h-full bg-secondary w-[85%]"></div>
               </div>
             </div>
           </div>
@@ -45,7 +47,7 @@ export function Skills() {
         <section>
           <h2 className="font-headline text-xl font-bold mb-6 flex items-center gap-3">
             <Brain className="w-6 h-6 text-primary" />
-            Tech Stack
+            {t('resume.skills.stack')}
           </h2>
           <div className="flex flex-wrap gap-3">
             {[
@@ -53,10 +55,12 @@ export function Skills() {
               "Dart",
               "GetX",
               "Bloc",
-              "Firebase",
-              "Rest API",
-              "Git / GitHub",
-              "Postman",
+              "Android Native",
+              "REST APIs",
+              "Local Caching",
+              "Video Performance",
+              "Git",
+              "Google Play",
             ].map((tech) => (
               <span
                 key={tech}

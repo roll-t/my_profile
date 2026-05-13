@@ -1,0 +1,208 @@
+{
+  "nav": {
+    "projects": "Dự án",
+    "about": "Giới thiệu",
+    "techStack": "Công nghệ",
+    "contact": "Liên hệ",
+    "resume": "Hồ sơ CV"
+  },
+  "portfolio": {
+    "hero": {
+      "available": "Sẵn sàng làm việc",
+      "title": "Xây Dựng Trải Nghiệm <1>Mobile</1> Mượt Mà Cùng Flutter",
+      "description": "Xin chào, tôi là Phạm Phước Trường. Một Mobile Developer tận tâm, chuyên xây dựng các ứng dụng đa nền tảng với hiệu suất cao. Tôi biến những ý tưởng phức tạp thành các sản phẩm kỹ thuật số thanh lịch, mượt mà và thân thiện với người dùng.",
+      "viewWork": "Xem Dự Án",
+      "letsTalk": "Liên Hệ Tôi",
+      "perfScore": "Điểm Hiệu Suất"
+    },
+    "about": {
+      "title": "Kết hợp sự tinh tế với <1>Đơn giản</1>",
+      "p1": "Là một Mobile Developer thành thạo với nền tảng kỹ thuật vững chắc trong việc phát triển ứng dụng đa nền tảng (cross-platform). Có chuyên môn sâu sắc và đã được chứng minh về kiến trúc phần mềm, tổ chức mã nguồn sạch (clean code) và áp dụng các nguyên lý OOP, SOLID để xây dựng các giải pháp có khả năng mở rộng và dễ bảo trì.",
+      "p2": "Thành thạo trong việc phân tích các yêu cầu UI/UX và tận dụng các framework hiện đại như <1>Flutter</1> để mang lại trải nghiệm di động trực quan, hiệu suất cao và lấy người dùng làm trung tâm."
+    },
+    "tech": {
+      "title": "Phòng Thí Nghiệm",
+      "subtitle": "Các công cụ và framework tôi sử dụng để tạo ra các ứng dụng ưu tiên hiệu suất.",
+      "frameworks": "Frameworks & Ngôn ngữ",
+      "state": "Quản lý trạng thái",
+      "backend": "Backend & APIs",
+      "architecture": "Kiến trúc",
+      "specialties": "Chuyên môn",
+      "tools": "Công cụ"
+    },
+    "projects": {
+      "title": "Dự Án Nổi Bật",
+      "subtitle": "Các sản phẩm thử nghiệm và giải pháp cho khách hàng.",
+      "filterAll": "TẤT CẢ",
+      "p1Type": "Mạng xã hội giáo dục đa kênh (Google Play)",
+      "p1Desc": "Nền tảng mạng xã hội giáo dục đa kênh kết hợp Hỏi & Đáp, e-Learning, ChatBot AI và hệ thống short-video tối ưu hóa hiệu suất cực cao.",
+      "p2Type": "Cổng thông tin & Quản lý Đào tạo (Google Play)",
+      "p2Desc": "Phục vụ hàng chục nghìn sinh viên & giảng viên ĐH Duy Tân. Tích hợp đồng bộ hóa quản lý học tập, giảng dạy, tài chính và bảo mật 3DES.",
+      "p3Type": "Tiện ích (Google Play)",
+      "p3Desc": "Ứng dụng 'Digital Curator' quản lý liên kết cao cấp. Tích hợp Hybrid Cache 2 lớp mang lại phản hồi 0ms, bảo mật sinh trắc học, đồng bộ offline-first và chặn quảng cáo webview.",
+      "p4Type": "Tuyển dụng & Kết nối giáo dục (Google Play)",
+      "p4Desc": "Hệ sinh thái tuyển dụng & giáo dục đa vai trò toàn diện. Tích hợp quản lý thực tập đầu-cuối, scheduler thông minh, multi-flavors và Clean Architecture cho ứng dụng quy mô lớn."
+    },
+    "contact": {
+      "title": "Hãy Cùng Xây Dựng Những Điều <1>Tuyệt Vời</1>.",
+      "desc": "Tôi luôn sẵn sàng thảo luận về các dự án mới, ý tưởng sáng tạo hoặc các cơ hội hợp tác. Đừng ngần ngại liên hệ với tôi!",
+      "email": "Gửi Email",
+      "website": "GitHub"
+    },
+    "footer": {
+      "copyright": "© 2026 Pham Phuoc Truong. Được xây dựng với Flutter & Sự tỉ mỉ."
+    }
+  },
+  "resume": {
+    "nav": {
+      "portfolio": "Trở về Portfolio"
+    },
+    "hero": {
+      "title": "Mobile Developer",
+      "location": "278A Hưng Lợi, Ninh Kiều, Cần Thơ",
+      "website": "github.com/roll-t"
+    },
+    "summary": {
+      "title": "Tóm tắt chuyên môn",
+      "p1": "Là một <1>Mobile Developer</1> thành thạo với nền tảng kỹ thuật vững chắc trong việc phát triển ứng dụng đa nền tảng (cross-platform).",
+      "p2": "Có chuyên môn sâu sắc và đã được chứng minh về <1>kiến trúc phần mềm</1>, tổ chức mã nguồn sạch (clean code) và áp dụng các nguyên lý OOP, SOLID để xây dựng các giải pháp có khả năng mở rộng và dễ bảo trì.",
+      "p3": "Thành thạo trong việc phân tích các yêu cầu UI/UX và tận dụng các framework hiện đại như <1>Flutter</1> để mang lại trải nghiệm di động trực quan, hiệu suất cao và lấy người dùng làm trung tâm."
+    },
+    "experience": {
+      "title": "Kinh nghiệm làm việc",
+      "role": "Mobile Developer",
+      "date": "Tháng 5/2024 - Hiện tại",
+      "bullet1": "Xử lý các yêu cầu phức tạp về truyền phát đa phương tiện bằng cách triển khai <1>HTTP Live Streaming (HLS)</1>, tạo proxy cục bộ (local proxy) trên thiết bị và xây dựng các cơ chế mạng/bộ nhớ đệm mạnh mẽ để đảm bảo quá trình phát video không bị gián đoạn.",
+      "bullet2": "Thiết kế và xây dựng tính năng <1>nguồn cấp dữ liệu video (video feed)</1> với hiệu suất cao, tối ưu hóa đáng kể độ mượt mà khi cuộn và giảm thiểu dung lượng tải trước (pre-load) của video để mang lại trải nghiệm người dùng liền mạch.",
+      "bullet3": "Thiết kế các kiến trúc mã nguồn có khả năng mở rộng và dễ bảo trì bằng cách áp dụng nghiêm ngặt các nguyên lý <1>OOP và SOLID</1>.",
+      "bullet4": "Phân tích các yêu cầu UI/UX và tối ưu hóa giao diện ứng dụng để cung cấp thiết kế trực quan và phản hồi tốt.",
+      "bullet5": "Phát triển, triển khai và bảo trì các ứng dụng di động đa nền tảng, đảm bảo hiệu suất tổng thể cao, tính ổn định và trải nghiệm người dùng mượt mà.",
+      "bullet6": "Tích cực tham gia vào việc bảo trì ứng dụng liên tục, bao gồm gỡ lỗi (debugging) kỹ lưỡng, theo dõi hiệu suất và giải quyết các vấn đề tuân thủ chính sách của <1>Google Play</1> để đảm bảo các bản cập nhật diễn ra trơn tru."
+    },
+    "projects": {
+      "title": "Dự án tiêu biểu",
+      "p1Type": "Mạng xã hội giáo dục đa kênh (Google Play)",
+      "p1Desc": "Nền tảng MXH giáo dục tích hợp Hỏi & Đáp (Q&A), e-Learning, Livestreaming, AI ChatBot và short-video hiệu suất cao.",
+      "p1B1": "<1>Kiến trúc Local Proxy Server:</1> Triển khai local web server bằng thư viện shelf trên thiết bị để đánh chặn m3u8, hỗ trợ CDN Token Injection và Progressive HLS Segment Caching mượt mà như TikTok.",
+      "p1B2": "<1>Tối ưu Pool & RAM:</1> Xây dựng VideoPlayerPoolManager tái sử dụng controller cố định qua GetX, tự động giải tỏa imageCache/pause ngầm chủ động khi có áp lực bộ nhớ (didHaveMemoryPressure).",
+      "p1B3": "<1>Tải trước & Adaptive Bitrate:</1> Thiết kế thuật toán tải trước thông minh sử dụng Epoch Tracking, nhường băng thông (Cooperative Bandwidth), CPU Yielding và tự động lựa chọn bitrate tối ưu nhất (ABR) theo tốc độ mạng thực tế.",
+      "p2Type": "Cổng thông tin & Quản lý Đào tạo (Google Play)",
+      "p2Desc": "Ứng dụng di động phục vụ hàng chục nghìn sinh viên và giảng viên ĐH Duy Tân, đồng bộ hóa toàn diện quy trình học tập, giảng dạy và lịch trình thời gian thực.",
+      "p2B1": "<1>Bảo mật 3DES & MD5 Signature:</1> Áp dụng cơ chế mã hóa Triple DES (ECB Mode, PKCS7 Padding) kết hợp băm MD5 sinh Signature Token đính kèm header, chống giả mạo dữ liệu API tuyệt đối.",
+      "p2B2": "<1>Tối ưu UI Form & Ảnh:</1> Xây dựng ScrollToErrorMixin và ExpandController tự động hóa form dài. Tích hợp thuật toán nén ảnh theo chu kỳ (< 300KB) đảm bảo chất lượng tải lên tối ưu.",
+      "p2B3": "<1>Local Search & Timezone Noti:</1> Phát triển thuật toán tìm kiếm cục bộ Zero Lag (Debounce 300ms + loại bỏ dấu) kết hợp đồng bộ hóa múi giờ để nhắc nhở lịch học chính xác.",
+      "p3Type": "Digital Curator & Quản lý Liên kết (Google Play)",
+      "p3Desc": "Một 'Digital Curator' cao cấp giúp quản lý, phân loại và tối ưu hóa trải nghiệm lưu trữ liên kết (bookmarks).",
+      "p3B1": "<1>Hybrid Cache 2 Lớp:</1> Xây dựng luồng dữ liệu SQLite + In-Memory Reactive, xử lý tìm kiếm và phân trang tức thì trên RAM mang lại phản hồi giao diện 0ms.",
+      "p3B2": "<1>Đồng bộ Offline-First:</1> Thiết kế SessionSyncService với cơ chế hàng đợi Queue-based bền bỉ, tự động đồng bộ hóa dữ liệu khi thiết bị có mạng trở lại.",
+      "p3B3": "<1>Bảo mật Hai Lớp:</1> Kết hợp bảo mật sinh trắc học (Local Auth) và mã PIN bảo mật động, ẩn hoàn toàn dữ liệu nhạy cảm khỏi luồng hiển thị chung.",
+      "p3B4": "<1>Tích hợp Hệ thống & Webview:</1> Nhận Intent từ Share Sheet, trích xuất clipboard Regex Parsing, cào Open Graph Metadata, và nhúng JS Ad-blocker chặn quảng cáo.",
+      "p4Type": "Tuyển dụng & Giáo dục",
+      "p4Desc": "Hệ sinh thái kết nối tuyển dụng đa chiều (Ứng viên - Doanh nghiệp - Nhà trường) trên Flutter di động với quy mô kiến trúc cực kỳ đồ sộ.",
+      "p4B1": "<1>Kiến trúc Modular & Clean:</1> Áp dụng Clean Architecture kết hợp GetX quản lý hơn 60 module màn hình độc lập, đảm bảo tính mở rộng và dễ dàng bảo trì.",
+      "p4B2": "<1>Quy trình Thực tập & Lịch Phỏng vấn:</1> Số hóa toàn diện luồng kết nối và đánh giá thực tập 3 bên, kèm phân hệ scheduler thông minh cập nhật thời gian thực.",
+      "p4B3": "<1>Quản trị Multi-Flavors:</1> Thiết lập cấu trúc Flavors (Dev, STG, Test, Prod) độc lập hoàn toàn về Bundle ID, cấu hình Firebase và App Icon bằng flutter_flavorizr.",
+      "p4B4": "<1>Khả năng Chịu tải Mạng & Bảo mật:</1> Xây dựng AuthInterceptor kết hợp connectivity_plus tự động chặn/báo lỗi mất mạng và chuẩn hóa Payload Signature Token chống giả mạo API."
+    },
+    "skills": {
+      "title": "Khả năng kỹ thuật",
+      "stack": "Công nghệ",
+      "skill1": "Phát triển Mobile (Flutter/Dart, Android Native)",
+      "skill2": "Quản lý trạng thái (GetX, BLOC)",
+      "skill3": "Mạng, Dữ liệu & Hiệu suất Video"
+    },
+    "education": {
+      "title": "Học vấn",
+      "degree": "Cử nhân Kỹ thuật Hệ thống Thông tin",
+      "school": "Đại học Cần Thơ (Can Tho University)",
+      "desc": "<1>Các môn học liên quan:</1> Lập trình hướng đối tượng (OOP), Kiến trúc phần mềm, Phân tích và Thiết kế Hệ thống, Quản trị Cơ sở dữ liệu."
+    },
+    "languages": {
+      "title": "Ngôn ngữ",
+      "en": "Tiếng Anh",
+      "enLevel": "Chuyên nghiệp",
+      "vi": "Tiếng Việt",
+      "viLevel": "Bản ngữ"
+    }
+  },
+  "projectDetails": {
+    "common": {
+      "back": "Quay lại Portfolio",
+      "role": "Vai Trò",
+      "duration": "Thời Gian",
+      "techStack": "Công Nghệ",
+      "overview": "Tổng Quan Dự Án",
+      "challenge": "Thách Thức Kỹ Thuật",
+      "solution": "Giải Pháp Triển Khai",
+      "visitApp": "Truy cập Google Play",
+      "timeline": "Mốc thời gian"
+    },
+    "click-ed": {
+      "title": "CLICK-Ed",
+      "subtitle": "Mạng Xã Hội Giáo Dục Đa Kênh & Nền Tảng Short-Video Tối Ưu Cực Đỉnh",
+      "role": "Flutter Mobile Developer",
+      "duration": "2024 (6 tháng)",
+      "overview": "CLICK-Ed là một nền tảng mạng xã hội giáo dục tích hợp đa kênh chuyên nghiệp, kết hợp giữa mô hình hỏi đáp (Q&A), hệ thống e-Learning chuyên nghiệp, phát trực tiếp bài giảng (Livestreaming) và trải nghiệm short-video tương tác cao. Ứng dụng tích hợp các tính năng nâng cao như Ví điện tử & Thanh toán (Wallet & Monetization), AI Trợ lý (ChatBot), Chợ mua bán (Marketplace) và các tương tác xã hội hoàn chỉnh.",
+      "challenge": "Module Video của dự án có độ phức tạp kỹ thuật cực cao tương tự TikTok. Thách thức lớn nhất là giải quyết triệt để các vấn đề về giật lag (UI jank), rò rỉ bộ nhớ (memory leak) và tình trạng nghẽn băng thông ở môi trường mạng yếu khi người dùng lướt danh sách video ngắn liên tục.",
+      "solution": "Tôi thiết kế kiến trúc Local HTTP Proxy Server (shelf) chạy trực tiếp trên thiết bị để đánh chặn luồng phát và phân phối bộ nhớ đệm. Đồng thời phát triển Video Player Pool Manager duy trì số lượng controller cố định bằng GetX và lắng nghe giải tỏa RAM chủ động. Kết hợp Thuật toán Tải trước Thông minh sử dụng Epoch Tracking và cơ chế nhường băng thông theo thời gian thực cùng hỗ trợ phân giải động Adaptive Bitrate (ABR) giúp tối ưu trải nghiệm video mượt mà.",
+      "features": [
+        "Hệ sinh thái e-Learning & Hỏi Đáp (Q&A) toàn diện tích hợp ChatBot AI",
+        "Mô hình Máy chủ Proxy Tại chỗ (Local HTTP Proxy Server) & CDN Token Injection",
+        "Video Player Pool Manager tái sử dụng bộ điều khiển giúp giải tỏa áp lực RAM chủ động",
+        "Thuật toán Tải trước Thông minh với Epoch Tracking & Nhường băng thông (Cooperative Bandwidth)",
+        "Tự động điều chỉnh Bitrate (Adaptive Bitrate) & Tối ưu hóa theo tốc độ mạng (Network-Aware)",
+        "Ví điện tử, thanh toán đăng ký gói hội viên và Chợ giao dịch giáo dục"
+      ]
+    },
+    "mydtu": {
+      "title": "MYDTU MOBILE APP",
+      "subtitle": "Cổng Thông Tin Đa Năng & Đồng Bộ Hóa Thời Gian Thực",
+      "role": "Flutter Mobile Developer",
+      "duration": "2023 (8 tháng)",
+      "overview": "MyDTU là ứng dụng – Cổng thông tin tích hợp đa năng phục vụ hàng chục nghìn sinh viên và giảng viên trường Đại học Duy Tân. Ứng dụng đồng bộ hóa toàn diện quy trình quản lý học tập, giảng dạy, tra cứu hồ sơ đa tầng, tài chính và lịch trình cá nhân theo thời gian thực, tích hợp hệ thống phân quyền động Dynamic Role-Based thích ứng theo vai trò người dùng.",
+      "challenge": "Thách thức lớn nhất của dự án là xử lý các biểu mẫu thông tin cực kỳ phức tạp (hồ sơ đa tầng) gây khó khăn khi nhập liệu, việc bảo mật dữ liệu truyền tải khỏi nguy cơ giả mạo API, và việc xử lý tìm kiếm dữ liệu cục bộ khối lượng lớn mà không gây gián đoạn (lag) giao diện người dùng.",
+      "solution": "Tôi đã phát triển Form Automation Mixin (ScrollToError) kết hợp ExpandController giúp xử lý mượt mà các form dài. Về bảo mật, tôi áp dụng mã hóa Triple DES (3DES - ECB - PKCS7) và MD5 sinh Signature Token cho Header API. Bên cạnh đó, phát triển Local Search Algorithm (Debouncing + Diacritics Removal) mang lại trải nghiệm tìm kiếm Zero Lag, và thiết lập Centralized Dio Client hỗ trợ xử lý nhiều luồng song song qua Future.wait.",
+      "features": [
+        "Hồ sơ cá nhân đa tầng & Bộ chọn Tỉnh/Huyện/Xã nạp dữ liệu song song",
+        "Quản trị Học tập toàn diện cho Sinh viên (Đăng ký, Bảng điểm, Học phí, Cảnh báo)",
+        "Quản trị Giảng dạy nâng cao cho Giảng viên (Quản lý lớp, Điểm, Xin nghỉ/Dạy bù)",
+        "Dynamic Role-Based System tự động phân quyền menu và giao diện theo vai trò",
+        "Cơ chế bảo mật 3DES kết hợp MD5 Signature Token đính kèm Header chống giả mạo",
+        "Timezone-Aware Notifications lên lịch nhắc nhở lịch học/dạy chính xác theo múi giờ"
+      ]
+    },
+    "linkeep": {
+      "title": "Linkeep",
+      "subtitle": "Digital Curator & Trình Quản Lý Liên Kết Cao Cấp Offline-First",
+      "role": "Lead Flutter Developer",
+      "duration": "2023 (5 tháng)",
+      "overview": "Một ứng dụng di động đa nền tảng (Android & iOS) thuộc phân khúc cao cấp (premium), được thiết kế như một \"Digital Curator\" giúp người dùng quản lý, phân loại và tối ưu hóa trải nghiệm lưu trữ liên kết (bookmarks) với hiệu suất cực cao, bảo mật sinh trắc học và khả năng đồng bộ hóa offline-first.",
+      "challenge": "Thách thức lớn nhất là giảm thiểu tối đa độ trễ khi truy vấn hàng nghìn bản ghi liên kết và thực hiện tìm kiếm thời gian thực, song song với việc đảm bảo tính ổn định khi đồng bộ hóa dữ liệu đa thiết bị trong môi trường ngoại tuyến.",
+      "solution": "Tôi đã trực tiếp thiết kế kiến trúc Hybrid Cache 2 Lớp (Write-Through Caching) kết hợp SQLite với In-memory Reactive giúp xử lý đọc/ghi đạt phản hồi tức thì 0ms. Thiết kế hệ thống SessionSyncService bền bỉ dựa trên Queue-based Sync Service tuần tự hóa vào GetStorage để đồng bộ hóa Firebase thông minh khi online. Đồng thời tích hợp InAppWebView nhúng JS DOM Removal làm Ad-blocker tùy biến và tối ưu hóa Deep OS Integration qua Receive Intent.",
+      "features": [
+        "Hệ thống thiết kế tối giản cao cấp sử dụng 'Tonal Layering' và Glassmorphism",
+        "Smart Content Aggregator tự động trích xuất Clipboard, cào dữ liệu OG Metadata",
+        "Trình duyệt Advanced Web Viewer tích hợp sẵn hệ thống Ad-Blocker tùy biến",
+        "Cơ chế bảo mật hai lớp: Xác thực sinh trắc học kết hợp mã khóa PIN bảo mật động",
+        "Deep OS Integration nhận liên kết trực tiếp từ Share Sheet của hệ điều hành"
+      ]
+    },
+    "realjobs": {
+      "title": "RealJobs",
+      "subtitle": "Hệ Sinh Thái Công Nghệ Tuyển Dụng & Kết Nối Giáo Dục Di Động",
+      "role": "Flutter Mobile Developer",
+      "duration": "2024 (8 tháng)",
+      "overview": "RealJobs là một hệ sinh thái công nghệ tuyển dụng và kết nối giáo dục toàn diện dành cho thiết bị di động (iOS & Android). Ứng dụng đóng vai trò như một cầu nối đa chiều giữa Doanh nghiệp (Employers), Sinh viên/Ứng viên (Candidates/Students), Nhà trường/Giảng viên (Universities/Instructors) và Cựu sinh viên (Alumni). Dự án giải quyết bài toán quản lý toàn bộ vòng đời từ tìm kiếm việc làm, thực tập sinh, lên lịch phỏng vấn, đánh giá thực tập cho đến quản trị nhân sự doanh nghiệp.",
+      "challenge": "Thách thức chính là phát triển, kiểm thử và vận hành hiệu quả ứng dụng quy mô lớn với hơn 60 module màn hình độc lập và logic phân quyền vai trò phức tạp. Đồng thời, hệ thống yêu cầu kết nối mạng tối ưu, khả năng vận hành đa môi trường độc lập và tính bảo mật dữ liệu đầu vào cực kỳ chặt chẽ.",
+      "solution": "Tôi áp dụng Clean Architecture & GetX cho kiến trúc Modular cho phép mở rộng linh hoạt. Cấu hình độc lập 4 môi trường Dev/STG/Test/Prod qua flutter_flavorizr. Xây dựng cơ chế Network Resiliency với AuthInterceptor + connectivity_plus giúp xử lý mất kết nối mượt mà. Áp dụng mã hóa API Payload Signature chống giả mạo, cùng các bộ render HTML động và tối ưu hóa UX bằng shimmer loading.",
+      "features": [
+        "Hệ Thống Đa Vai Trò (Multi-role Ecosystem) phân quyền động và giao diện riêng biệt",
+        "Quản Lý Tuyển Dụng & Việc Làm nâng cao với nộp CV đa định dạng & lọc hàng loạt",
+        "Hệ Sinh Thái Thực Tập Độc Quyền số hóa quy trình đánh giá 3 bên (Trường - Doanh nghiệp - Sinh viên)",
+        "Quản Lý Lịch Phỏng Vấn Thông Minh (Interview & Slot Scheduling) & Sự Kiện Tuyển Dụng",
+        "Hệ Thống Liên Lạc Đa Kênh: Chat nội bộ, Email tự động & Theo dõi lịch sử gửi thư",
+        "Kiến trúc Modular Clean Architecture vững chắc với hơn 60 module màn hình"
+      ]
+    }
+  }
+}
