@@ -26,22 +26,22 @@ const PROJECT_META: Record<string, ProjectMeta> = {
   "click-ed": {
     techStack: ["Flutter", "Dart", "Local Proxy Server", "GetX", "Video Player Pool", "Adaptive Bitrate (ABR)", "Hive DB", "Firebase"],
     imageUrl: "/lick_banner.png",
-    playLink: "https://play.google.com/store"
+    playLink: "https://play.google.com/store/apps/details?id=realjobscomltd.clickqa"
   },
   "mydtu": {
     techStack: ["Flutter", "Dart", "GetX", "Dio Client", "Triple DES / MD5", "Local Search Algorithm", "Multi-Environment", "Timezone Notifications", "GetStorage / SharedPreferences"],
     imageUrl: "/my_dtu_banner.png",
-    playLink: "https://play.google.com/store"
+    playLink: "https://play.google.com/store/apps/details?id=cse.duytan.edu.vn.my_dtu_mobile"
   },
   "linkeep": {
     techStack: ["Flutter", "Dart", "GetX", "SQLite", "Firebase Realtime DB", "In-Memory Cache", "Deep Linking", "Biometrics", "InAppWebView"],
     imageUrl: "/linkeep_banner.png",
-    playLink: "https://play.google.com/store/apps/details?id=com.phamtruong.keeplink&pcampaignid=web_share"
+    playLink: "https://play.google.com/store/apps/details?id=com.phamtruong.keeplink"
   },
   "realjobs": {
     techStack: ["Flutter", "Dart", "Clean Architecture", "GetX", "Multi-Flavors", "Network Interceptors", "Push Notifications", "HTML Dynamic UI", "Dio", "Firebase"],
     imageUrl: "/realjobs_banner.jpeg",
-    playLink: "https://play.google.com/store"
+    playLink: "https://play.google.com/store/apps/details?id=realjobscomltd.realjobs"
   }
 };
 
