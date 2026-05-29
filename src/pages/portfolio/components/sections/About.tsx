@@ -20,9 +20,7 @@ export function About() {
               {t('portfolio.about.p1')}
             </p>
             <p className="text-xl text-on-surface-variant leading-relaxed">
-              <Trans i18nKey="portfolio.about.p2">
-                Thành thạo trong việc phân tích các yêu cầu UI/UX và tận dụng các framework hiện đại như <span className="text-on-surface font-semibold">Flutter</span> để mang lại trải nghiệm di động trực quan, hiệu suất cao và lấy người dùng làm trung tâm.
-              </Trans>
+              {t('portfolio.about.p2')}
             </p>
           </Reveal>
         </div>

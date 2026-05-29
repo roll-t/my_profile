@@ -11,7 +11,8 @@ import {
   User,
   Layers,
   Smartphone,
-  CheckCircle2
+  CheckCircle2,
+  Github
 } from "lucide-react";
 import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 import { Reveal } from "../portfolio/components/ui/Reveal";
@@ -42,6 +43,21 @@ const PROJECT_META: Record<string, ProjectMeta> = {
     techStack: ["Flutter", "Dart", "Clean Architecture", "GetX", "Multi-Flavors", "Network Interceptors", "Push Notifications", "HTML Dynamic UI", "Dio", "Firebase"],
     imageUrl: "/realjobs_banner.jpeg",
     playLink: "https://play.google.com/store/apps/details?id=realjobscomltd.realjobs"
+  },
+  "food-quest": {
+    techStack: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "Firebase Storage", "Multi-Flavors", "FVM", "Provider / Riverpod", "Geolocator", "Google Maps API"],
+    imageUrl: "https://opengraph.githubassets.com/1/roll-t/food_quest",
+    playLink: "https://github.com/roll-t/food_quest"
+  },
+  "bookara": {
+    techStack: ["Flutter", "Dart", "GetX", "Dio Client", "Sqflite Database", "Offline-First Storage", "HTML Content Rendering", "Dynamic Theme System"],
+    imageUrl: "https://opengraph.githubassets.com/1/roll-t/reading_app",
+    playLink: "https://github.com/roll-t/reading_app"
+  },
+  "auto-fin": {
+    techStack: ["Flutter", "Dart", "GetX", "Sqflite", "Finance Tracking API", "Automation Engine", "Local Notifications", "Excel/CSV Export"],
+    imageUrl: "https://opengraph.githubassets.com/1/roll-t/auto_fin",
+    playLink: "https://github.com/roll-t/auto_fin"
   }
 };
 
@@ -118,8 +134,17 @@ export default function ProjectDetailApp() {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-primary text-on-primary px-6 py-3.5 md:px-8 md:py-4 rounded-xl font-headline font-bold text-sm md:text-md hover:bg-primary/90 shadow-[0px_10px_20px_rgba(255,77,77,0.3)] transition-all w-full md:w-auto shrink-0 h-fit btn-hover-effect"
             >
-              {t('projectDetails.common.visitApp')}
-              <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
+              {meta.playLink.includes("github.com") ? (
+                <>
+                  {t('projectDetails.common.visitGithub')}
+                  <Github className="w-4 h-4 sm:w-5 sm:h-5" />
+                </>
+              ) : (
+                <>
+                  {t('projectDetails.common.visitApp')}
+                  <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
+                </>
+              )}
             </a>
           </div>
         </Reveal>

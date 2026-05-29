@@ -17,11 +17,11 @@
     },
     "about": {
       "title": "Bridging Sophistication with <1>Simplicity</1>",
-      "p1": "A proficient Mobile Developer with a strong technical foundation in cross-platform mobile development. Possess deep and proven expertise in software architecture, clean code organization, and applying OOP, SOLID principles to build scalable and maintainable solutions.",
-      "p2": "Highly skilled in analyzing UI/UX requirements and leveraging modern frameworks like <1>Flutter</1> to deliver intuitive, high-performance, and user-centric mobile experiences."
+      "p1": "Flutter Developer with hands-on production experience engineering complex video streaming systems for mobile. Specialized in HLS local proxy servers, Adaptive Bitrate (ABR) pipelines, and multi-layer caching strategies — building infrastructure that keeps video smooth even under the worst network conditions.",
+      "p2": "Deep expertise in async/concurrent programming, race condition prevention, and long-session memory optimization. Every feature is architected with Clean Architecture, SOLID principles, and long-term maintainability as first-class requirements — not afterthoughts."
     },
     "tech": {
-      "title": "The Laboratory",
+      "title": "Core Tech Stack",
       "subtitle": "The tools and frameworks I use to engineer performance-driven apps.",
       "frameworks": "Frameworks & Languages",
       "state": "State Management",
@@ -34,6 +34,8 @@
       "title": "Featured Projects",
       "subtitle": "Experimental builds and client solutions.",
       "filterAll": "ALL",
+      "filterReleased": "RELEASED APPS",
+      "filterOpenSource": "OPEN SOURCE",
       "p1Type": "Multi-Channel Educational Social Network (Google Play)",
       "p1Desc": "Multi-channel educational social network integrating Q&A, e-Learning, AI ChatBot, and an ultra-optimized short-video delivery engine.",
       "p2Type": "Super App Portal & Academic Management (Google Play)",
@@ -41,7 +43,13 @@
       "p3Type": "Utility (Google Play)",
       "p3Desc": "Premium 'Digital Curator' app for managing links. Integrates a 2-layer Hybrid Cache for 0ms UI latency, biometric security, offline-first synchronization, and a built-in Webview ad-blocker.",
       "p4Type": "Recruitment & Educational Ecosystem",
-      "p4Desc": "A comprehensive, multi-role mobile ecosystem for candidates, employers, and universities. Features end-to-end internship management, multi-flavoring, and Modular Clean Architecture for large-scale applications."
+      "p4Desc": "A comprehensive, multi-role mobile ecosystem for candidates, employers, and universities. Features end-to-end internship management, multi-flavoring, and Modular Clean Architecture for large-scale applications.",
+      "p5Type": "Open Source · Food Discovery",
+      "p5Desc": "An interactive food discovery mobile application built with Flutter, Firebase backend, and multi-flavor configuration.",
+      "p6Type": "Open Source · Comic & Novel Reader",
+      "p6Desc": "A modern, offline-first reading application for comics and novels, utilizing GetX for state management, Dio for networking, and Sqflite for local database.",
+      "p7Type": "Open Source · Personal Finance",
+      "p7Desc": "A Flutter utility application focused on personal finance tracking and smart automation workflows."
     },
     "contact": {
       "title": "Let's Build Something <1>Great</1> Together.",
@@ -58,63 +66,78 @@
       "portfolio": "Back to Portfolio"
     },
     "hero": {
-      "title": "Mobile Developer",
+      "title": "Flutter Developer",
       "location": "278A Hung Loi, Ninh Kieu, Can Tho",
-      "website": "github.com/roll-t"
+      "website": "www.phuoctruong.com"
     },
     "summary": {
-      "title": "Professional Summary",
-      "p1": "Proficient <1>Mobile Developer</1> with a solid technical foundation in cross-platform application development.",
-      "p2": "Proven expertise in <1>software architecture</1>, clean code organization, and applying OOP and SOLID principles to build scalable and maintainable solutions.",
-      "p3": "Adept at analyzing UI/UX requirements and leveraging modern frameworks like <1>Flutter</1> to deliver intuitive, high-performance, and user-centric mobile experiences."
+      "title": "Summary",
+      "p1": "<1>Flutter Developer</1> with hands-on production experience building complex video streaming systems for mobile.",
+      "p2": "Specialized in <1>high-performance mobile architecture</1> — including HLS local proxy servers, Adaptive Bitrate (ABR) pipelines, and multi-layer caching strategies.",
+      "p3": "Strong foundation in <1>async/concurrent programming</1>, race condition prevention, and memory optimization for long video sessions. Consistently prioritizes Clean Architecture, SOLID principles, and long-term maintainability across every feature built."
     },
     "experience": {
       "title": "Work Experience",
       "role": "Mobile Developer",
+      "company": "CSS Can Tho",
       "date": "May 2024 - Present",
-      "bullet1": "Handled complex media streaming requirements by implementing <1>HTTP Live Streaming (HLS)</1>, creating an on-device local proxy, and building robust networking and caching mechanisms to ensure uninterrupted video playback.",
-      "bullet2": "Engineered a high-performance <1>video feed</1> feature, significantly optimizing scrolling fluidity and minimizing video pre-load sizes for a seamless user experience.",
-      "bullet3": "Designed scalable and maintainable code architectures by strictly applying <1>OOP and SOLID</1> principles.",
-      "bullet4": "Analyzed UI/UX requirements and optimized application interfaces to deliver intuitive and responsive designs.",
-      "bullet5": "Developed, implemented, and maintained cross-platform mobile applications, ensuring overall high performance, stability, and seamless user experiences.",
-      "bullet6": "Actively participated in ongoing application maintenance, including rigorous debugging, performance monitoring, and resolving <1>Google Play</1> policy compliance issues to ensure seamless updates."
+      "bullet1": "Architected a production <1>HLS system</1> with a local proxy server, buffer-aware grace timer, and 4-phase offline recovery — ensuring uninterrupted playback on unstable networks.",
+      "bullet2": "Built a video player <1>object pool</1> with epoch-based concurrency, debounced prefetch, and platform-adaptive sizing (iOS/Android) — delivering frame-ready playback on every swipe.",
+      "bullet3": "Decomposed a large multi-concern controller into focused, independently testable units via <1>mixin composition</1>, each owning a single responsibility (state, lifecycle, events, network).",
+      "bullet4": "Implemented a custom <1>async semaphore + generation-guard</1> pattern to eliminate race conditions during rapid swiping, preventing native-layer crashes from stale init tasks.",
+      "bullet5": "Built an <1>offline-first progress tracker</1> with local persistence, batch sync (≤10/session), exponential-backoff retry, and atomic read/write — zero data loss on sudden app termination.",
+      "bullet6": "Engineered a <1>multi-layer RAM cache</1> with explicit eviction and bounded collections to reduce GC pressure and prevent OOM errors in long video sessions.",
+      "bullet7": "Designed a <1>navigation-stack-based playback coordinator</1> that propagates interaction state (like, save, comment, view count) across all active screens via snapshot-safe iteration.",
+      "bullet8": "Integrated an <1>ABR engine</1> with EWMA bandwidth estimation and quality capping during preload — preventing bandwidth contention between active playback and background prefetch.",
+      "bullet9": "Applied <1>Clean Architecture</1> (data / domain / presentation) with interface-driven design and GetX-based dependency injection across all feature modules."
     },
     "projects": {
       "title": "Featured Projects",
-      "p1Type": "Educational Social Network (Google Play)",
-      "p1Desc": "An interactive social network focused on video-based learning.",
-      "p1B1": "<1>Mobile Video Performance:</1> Optimized feed rendering and playback lifecycle with pooled video controllers and bounded async initialization, delivering smooth scrolling and stable long-session playback while reducing CPU spikes and thermal risk.",
-      "p1B2": "<1>Resource Management:</1> Implemented multi-layer caching and network-aware video delivery (memory + disk cache, cache pruning, request optimization) to lower bandwidth usage, reduce local storage growth, and improve startup/playback consistency.",
-      "p1B3": "<1>Playback Reliability:</1> Added lifecycle-safe navigation and controller cleanup guards to prevent duplicate player instances, race conditions, and playback conflicts across screens.",
-      "p2Type": "Student Management Portal (Google Play)",
-      "p2Desc": "A comprehensive university management application designed for students of Duy Tan University to efficiently access academic information and services.",
-      "p2B1": "<1>Architecture & Maintenance:</1> Restructured the application's codebase to enhance scalability, while actively maintaining and debugging the app to ensure stable, long-term performance.",
-      "p2B2": "<1>Performance Optimization:</1> Built a robust local caching system and optimized network handling to significantly reduce redundant API requests, improving app responsiveness and reducing server load.",
-      "p2B3": "<1>Release & Deployment:</1> Handled regular version updates and managed the end-to-end deployment process on the Google Play Console.",
-      "p3Type": "Link Management & Social Sharing App (Google Play)",
-      "p3Desc": "Developed Keep Link, a cross-platform Flutter app for link management and social sharing, with offline-first architecture, secure access control, deep link navigation, and real-time synchronization.",
-      "p3B1": "Built offline-first data flow (SQLite + in-memory cache) with write-through sync to Firebase Realtime Database for fast, consistent cross-device data.",
-      "p3B2": "Developed friend-sharing flows via deep link, QR, and email, including full request lifecycle and real-time updates for shared categories.",
-      "p3B3": "Implemented robust deep link routing and in-app browser handling, ensuring correct screen navigation from shared URLs and reliable fallback to external browser when needed.",
-      "p3B4": "Implemented security features with PIN/biometric authentication and private category access control.",
-      "p3B5": "Optimized link intake and viewing: share intent/clipboard URL parsing, metadata auto-fetch, and WebView improvements (cache-first loading, ad/popup blocking, TikTok-specific handling).",
-      "p3B6": "Maintained app stability and managed Android release cycles on Google Play Console, including versioning and policy compliance."
+      "p1Type": "Educational Social Network",
+      "p1Desc": "A TikTok-style short-video learning platform with HLS adaptive streaming, offline progress tracking, and a continuous-scroll feed for educational content.",
+      "p1B1": "<1>Video Architecture:</1> Epoch-based object pool + debounced prefetch + warm-up pre-init — video is frame-ready the moment the user finishes swiping.",
+      "p1B2": "<1>Network Resilience:</1> 4-phase offline recovery with buffer-aware grace timer (3s-60s), early buffer-drain detection, and auto-resume at the correct playback position on reconnect.",
+      "p1B3": "<1>Local Proxy & Cache:</1> HLS proxy server with multi-layer cache (in-memory + disk), lazy playlist rebuild from downloaded segments, and bounded disk eviction.",
+      "p1B4": "<1>Adaptive Bitrate:</1> EWMA bandwidth estimation + network-type safety factors + quality capping during preload — eliminates quality thrashing under fluctuating connections.",
+      "p1B5": "<1>Offline Tracking:</1> Batch sync, exponential-backoff retry, atomic read/write, and checkpoint fallback to handle edge cases where the player resets position to zero while offline.",
+      "p1B6": "<1>Global State:</1> Navigation-stack coordinator propagates like/save/comment/view count updates to all active screens simultaneously via snapshot-safe iteration.",
+      "p2Type": "Student Portal - Duy Tan University",
+      "p2Desc": "A university app for checking schedules, grades, and campus services, serving thousands of active students.",
+      "p2B1": "Restructured legacy codebase to <1>Clean Architecture</1>, improving scalability without introducing regression.",
+      "p2B2": "Built <1>local caching + request deduplication</1>, reducing server load and improving cold-start response time.",
+      "p2B3": "Perform <1>ongoing maintenance</1> and occasional feature development to ensure app stability, resolve bugs, and adapt to new university requirements.",
+      "p2B4": "Managed <1>full release cycle</1> on Google Play Console: versioning, policy compliance, staged rollout.",
+      "p3Type": "Link Management & Social Sharing",
+      "p3Desc": "A cross-platform Flutter app for saving and sharing links with offline-first architecture, secure authentication, and real-time sync.",
+      "p3B1": "SQLite + in-memory cache with write-through sync to Firebase Realtime DB — consistent cross-device data, zero perceptible lag.",
+      "p3B2": "Deep link / QR / email sharing with accurate screen routing and reliable external browser fallback.",
+      "p3B3": "PIN/biometric security with per-category private access control.",
+      "p3B4": "WebView cache-first loading, ad/popup blocking, automatic URL parsing from clipboard — instant link intake.",
+      "p3B5": "Maintained app stability and managed Android release cycles on Google Play Console, including versioning and policy compliance."
     },
     "skills": {
       "title": "Skills",
       "stack": "Tech Stack",
-      "category1": "Mobile Development",
-      "desc1": "Flutter (Dart), Android Native Integration (Platform Channels), Background Processing.",
-      "category2": "State Management",
-      "desc2": "GetX, BLoC.",
-      "category3": "Networking & Data",
-      "desc3": "RESTful APIs, Network Handling, Error Handling, Local Storage & Caching.",
-      "category4": "Video performance on device",
-      "desc4": "Async throttling, CPU/RAM optimization, thermal control.",
-      "category5": "Delivery & Collaboration",
-      "desc5": "Git, Google Play Release/Deployment.",
-      "category6": "Languages",
-      "desc6": "English."
+      "category1": "Mobile",
+      "desc1": "Flutter (Dart) · Android Native (Platform Channels)",
+      "category2": "Architecture",
+      "desc2": "Clean Architecture · SOLID · Mixin-based Decomposition",
+      "category3": "State Mgmt",
+      "desc3": "GetX (Reactive + DI) · BLoC",
+      "category4": "Async / Concurrency",
+      "desc4": "Custom Semaphore · Generation Guard · CancelableOperation",
+      "category5": "Video Streaming",
+      "desc5": "HLS (m3u8/ts) · Local Proxy · ABR · VideoPlayerController",
+      "category6": "Networking",
+      "desc6": "RESTful APIs · Dio · HTTP Socket · Retry / Backoff",
+      "category7": "Performance",
+      "desc7": "Object Pool · RAM Eviction · CPU/GPU Profiling · Thermal Control",
+      "category8": "Storage",
+      "desc8": "SharedPreferences · SQLite · File I/O · Firebase Realtime DB",
+      "category9": "Delivery",
+      "desc9": "Git · Google Play Console · CI/CD basics",
+      "category10": "Languages",
+      "desc10": "English"
     },
     "education": {
       "title": "Education",
@@ -140,13 +163,14 @@
       "challenge": "Technical Challenge",
       "solution": "Implementation & Solution",
       "visitApp": "Visit Google Play",
+      "visitGithub": "Visit GitHub Repo",
       "timeline": "Timeline"
     },
     "click-ed": {
       "title": "CLICK-Ed",
       "subtitle": "Multi-Channel Educational Social Network & Optimized Short-Video Platform",
       "role": "Flutter Mobile Developer",
-      "duration": "2024 (6 months)",
+      "duration": "2024 - Present",
       "overview": "CLICK-Ed is a comprehensive, multi-channel educational social network integrating a Q&A platform, professional e-Learning system, live streaming, and a high-engagement short-video experience. It features advanced modules like E-Wallet & Monetization, an AI ChatBot, an educational Marketplace, and a fully featured social interaction layer.",
       "challenge": "The short-video module represents extreme technical complexity, mirroring architectures like TikTok. The primary challenges involved eliminating UI jank, preventing memory leaks, and optimizing playback smoothness over unstable or slow mobile network conditions.",
       "solution": "I engineered a Local HTTP Proxy Server using shelf on-device for CDN token injection and progressive caching. Developed a custom Video Player Pool Manager via GetX with active memory pressure recycling. Orchestrated an intelligent preloading system leveraging Epoch Tracking, Cooperative Bandwidth Allocation, Network-Aware optimization, and dynamic Adaptive Bitrate (ABR) streaming.",
@@ -163,7 +187,7 @@
       "title": "MYDTU MOBILE APP",
       "subtitle": "Super App - Multifunctional Integration Portal & Real-Time Synchronization",
       "role": "Flutter Mobile Developer",
-      "duration": "2023 (8 months)",
+      "duration": "2024 - Present (Maintenance)",
       "overview": "MyDTU is a Super App – a multifunctional integrated portal serving tens of thousands of students and faculty members at Duy Tan University. The application comprehensively synchronizes academic management, teaching schedules, multi-tiered profile lookups, financial tracking, and personal calendars in real-time, featuring a dynamic role-based authorization system that adapts automatically to user personas.",
       "challenge": "The primary challenges involved dealing with highly complex data input forms (multi-tiered profiles) causing user friction, securing API transmission channels against unauthorized manipulation, and engineering local search mechanisms across massive data blocks without introducing UI jank.",
       "solution": "I developed a Form Automation Mixin (ScrollToError) and ExpandController to streamline complex input workflows. For network security, I enforced Triple DES (3DES - ECB - PKCS7) with MD5 hashing for Header Signature Tokens. Furthermore, I architected a Zero Lag Local Search Algorithm utilizing Debouncing and Diacritics Removal, supported by a Centralized Dio Client optimized via concurrency with Future.wait.",
@@ -180,7 +204,7 @@
       "title": "Linkeep",
       "subtitle": "Premium Digital Curator & High-Performance Link Manager",
       "role": "Lead Flutter Developer",
-      "duration": "2023 (5 months)",
+      "duration": "2025 (3 months)",
       "overview": "A premium cross-platform mobile application (Android & iOS) designed as a 'Digital Curator' to help users manage, categorize, and optimize their bookmark experience with ultra-high performance, biometric security, and offline-first synchronization.",
       "challenge": "Minimizing query latency when handling thousands of link records and performing real-time searches, while ensuring completely smooth and robust data synchronization in unstable network environments.",
       "solution": "I architected a 2-Layer Hybrid Cache (Write-Through Caching) system merging SQLite with an In-memory Reactive Cache for 0ms responsiveness. I implemented a SessionSyncService utilizing an In-memory Queue serialized to GetStorage for automatic, resilient background sync. Additionally, I engineered an advanced internal Ad-Blocker via JS DOM Removal inside InAppWebView, and leveraged deep OS integration (Receive Intent) for seamless, instant share sheet capturing.",
@@ -196,7 +220,7 @@
       "title": "RealJobs",
       "subtitle": "Mobile Recruitment & Educational Connections Ecosystem",
       "role": "Flutter Mobile Developer",
-      "duration": "2024 (8 months)",
+      "duration": "2024 - Present (Maintenance)",
       "overview": "RealJobs is a comprehensive recruitment and educational ecosystem tailored for iOS & Android. It serves as a multi-dimensional bridge between Employers, Students/Candidates, Universities/Instructors, and Alumni. The platform handles the entire lifecycle from job searches and internships to interview scheduling, academic evaluations, and corporate HR management.",
       "challenge": "The key challenges included developing, testing, and managing an extremely large-scale app with 60+ independent screen modules and complex role-based authorization. It required high network resilience, robust multi-environment configuration, and strict security protocols.",
       "solution": "I implemented Modular Clean Architecture & GetX for robust, scalable application structures. Configured four distinct environments (Dev/STG/Test/Prod) via flutter_flavorizr. Built custom AuthInterceptors paired with connectivity_plus for network resiliency and offline safety checks. Leveraged secure API Payload Signatures, custom HTML editors, and refined UX through custom shimmer effects.",
@@ -207,6 +231,54 @@
         "Smart Interview & Slot Scheduler integrated with recruitment event feeds",
         "Multi-channel Communications featuring in-app messaging, emails, and activity logging",
         "Highly scalable Modular Clean Architecture with 60+ production-grade screen modules"
+      ]
+    },
+    "food-quest": {
+      "title": "FoodQuest",
+      "subtitle": "Interactive Food Discovery & Multi-flavor Social Dining Platform",
+      "role": "Flutter Mobile Developer",
+      "duration": "2023 (4 months)",
+      "overview": "FoodQuest is an interactive food discovery mobile application designed to help users search, discover, and share local culinary experiences. Integrated with a Firebase backend, the app features real-time geolocation matching, social sharing feeds, and customized user preference profiles.",
+      "challenge": "Building a clean, multi-flavor system to easily deploy different versions (Dev, Staging, Production) without mixing up credentials or configuration. Also, optimizing geographic map queries and ensuring smooth rendering of high-resolution food images in scrollable feeds.",
+      "solution": "I architected the project using FVM for stable Flutter version control and configured multi-flavor environments using distinct Firebase configurations. Integrated Google Maps API with cached geofencing search and built a robust image caching pipeline to guarantee stutter-free feed scrolling.",
+      "features": [
+        "Multi-flavor configuration (Development, Staging, Production environments)",
+        "Robust Firebase authentication & real-time Cloud Firestore synchronization",
+        "Interactive food location discovery utilizing geolocator & Google Maps API",
+        "Sleek social dining feeds with asynchronous local image caching",
+        "FVM (Flutter Version Manager) configuration for absolute pipeline consistency"
+      ]
+    },
+    "bookara": {
+      "title": "Bookara",
+      "subtitle": "Premium Comic & Novel Reader with Hybrid Offline Storage",
+      "role": "Flutter Mobile Developer",
+      "duration": "2023 (6 months)",
+      "overview": "Bookara (reading_app) is a high-performance, modern reader application tailored for comic enthusiasts and novel readers. Built with an offline-first architecture, the application delivers a seamless experience with instant content loading, bookmarks, customized reader themes, and smooth transitions.",
+      "challenge": "Rendering large quantities of high-resolution comic images and rich HTML novel content without triggering memory leaks or frame drops. Maintaining completely offline functionality with seamless background synchronization of bookmarks when back online.",
+      "solution": "I utilized GetX for reactive state management and structured the app with robust local storage using Sqflite. Integrated Dio with custom interceptors for resilient API pre-fetching and caching, and developed a custom HTML parser to render rich novel text flawlessly.",
+      "features": [
+        "Dual-engine reader supporting both high-res comic images and rich HTML novels",
+        "GetX reactive architecture with modular bindings for dependency injection",
+        "Robust SQLite (Sqflite) offline storage for book library and bookmarks tracking",
+        "Dio-powered network layer with automated caching & retry interceptors",
+        "Customizable reading styles (Night mode, reader themes, custom typography)"
+      ]
+    },
+    "auto-fin": {
+      "title": "AutoFin",
+      "subtitle": "Personal Finance Tracker & Smart Automation Workflows",
+      "role": "Lead Mobile Developer",
+      "duration": "2024 (3 months)",
+      "overview": "AutoFin is an intelligent utility application designed to simplify personal finance tracking through automation. It enables users to record transactions, schedule financial workflows, visualize spending habits, and securely export data for accounting.",
+      "challenge": "Structuring complex automation workflows that execute efficiently on a mobile device and ensuring maximum privacy and security for sensitive financial data stored locally.",
+      "solution": "Designed a custom automation scheduler that executes background checks and localized notifications. Secured sensitive records with an encrypted SQLite database and used GetX to ensure lightweight, zero-lag UI interactions.",
+      "features": [
+        "Smart personal finance logging with custom category tagging",
+        "Automated recurring transaction scheduler and background alert engine",
+        "Interactive analytical charts showing real-time monthly budget metrics",
+        "Secure local-first database with direct export capabilities (CSV / Excel format)",
+        "Modular architecture designed for rapid future API banking integrations"
       ]
     }
   }

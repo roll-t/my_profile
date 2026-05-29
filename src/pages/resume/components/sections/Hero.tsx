@@ -1,8 +1,10 @@
 import { MapPin, Phone, Mail, Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 export function Hero() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <section className="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
@@ -31,9 +33,18 @@ export function Hero() {
           </div>
           <div className="flex items-center gap-3">
             <Globe className="w-5 h-5 text-primary" />
-            <a href={`https://${t('resume.hero.website')}`} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            <button
+              onClick={() => {
+                if (window.history.length > 2) {
+                  navigate(-1);
+                } else {
+                  navigate("/");
+                }
+              }}
+              className="hover:text-primary transition-colors cursor-pointer bg-transparent border-none p-0 font-body text-on-surface-variant text-left outline-none"
+            >
               {t('resume.hero.website')}
-            </a>
+            </button>
           </div>
         </div>
       </div>

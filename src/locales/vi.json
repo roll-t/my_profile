@@ -17,11 +17,11 @@
     },
     "about": {
       "title": "Kết hợp sự tinh tế với <1>Đơn giản</1>",
-      "p1": "Là một Mobile Developer thành thạo với nền tảng kỹ thuật vững chắc trong việc phát triển ứng dụng đa nền tảng (cross-platform). Có chuyên môn sâu sắc và đã được chứng minh về kiến trúc phần mềm, tổ chức mã nguồn sạch (clean code) và áp dụng các nguyên lý OOP, SOLID để xây dựng các giải pháp có khả năng mở rộng và dễ bảo trì.",
-      "p2": "Thành thạo trong việc phân tích các yêu cầu UI/UX và tận dụng các framework hiện đại như <1>Flutter</1> để mang lại trải nghiệm di động trực quan, hiệu suất cao và lấy người dùng làm trung tâm."
+      "p1": "Flutter Developer với kinh nghiệm thực chiến xây dựng các hệ thống video streaming phức tạp trên môi trường production. Chuyên sâu về HLS local proxy server, Adaptive Bitrate (ABR) pipeline và chiến lược cache đa tầng — xây dựng hạ tầng giữ cho video luôn mượt mà ngay cả trong điều kiện mạng tệ nhất.",
+      "p2": "Nền tảng vững chắc về lập trình bất đồng bộ, xử lý race condition và tối ưu bộ nhớ cho phiên video kéo dài. Mọi tính năng đều được kiến trúc với Clean Architecture, SOLID và khả năng bảo trì dài hạn là yêu cầu hàng đầu — không phải điều được nghĩ tới sau cùng."
     },
     "tech": {
-      "title": "Phòng Thí Nghiệm",
+      "title": "Công Nghệ Cốt Lõi",
       "subtitle": "Các công cụ và framework tôi sử dụng để tạo ra các ứng dụng ưu tiên hiệu suất.",
       "frameworks": "Frameworks & Ngôn ngữ",
       "state": "Quản lý trạng thái",
@@ -34,6 +34,8 @@
       "title": "Dự Án Nổi Bật",
       "subtitle": "Các sản phẩm thử nghiệm và giải pháp cho khách hàng.",
       "filterAll": "TẤT CẢ",
+      "filterReleased": "ĐÃ PHÁT HÀNH",
+      "filterOpenSource": "MÃ NGUỒN MỞ",
       "p1Type": "Mạng xã hội giáo dục đa kênh (Google Play)",
       "p1Desc": "Nền tảng mạng xã hội giáo dục đa kênh kết hợp Hỏi & Đáp, e-Learning, ChatBot AI và hệ thống short-video tối ưu hóa hiệu suất cực cao.",
       "p2Type": "Cổng thông tin & Quản lý Đào tạo (Google Play)",
@@ -41,7 +43,13 @@
       "p3Type": "Tiện ích (Google Play)",
       "p3Desc": "Ứng dụng 'Digital Curator' quản lý liên kết cao cấp. Tích hợp Hybrid Cache 2 lớp mang lại phản hồi 0ms, bảo mật sinh trắc học, đồng bộ offline-first và chặn quảng cáo webview.",
       "p4Type": "Tuyển dụng & Kết nối giáo dục (Google Play)",
-      "p4Desc": "Hệ sinh thái tuyển dụng & giáo dục đa vai trò toàn diện. Tích hợp quản lý thực tập đầu-cuối, scheduler thông minh, multi-flavors và Clean Architecture cho ứng dụng quy mô lớn."
+      "p4Desc": "Hệ sinh thái tuyển dụng & giáo dục đa vai trò toàn diện. Tích hợp quản lý thực tập đầu-cuối, scheduler thông minh, multi-flavors và Clean Architecture cho ứng dụng quy mô lớn.",
+      "p5Type": "Mã nguồn mở · Tìm kiếm Món ăn",
+      "p5Desc": "Ứng dụng di động tìm kiếm và khám phá món ăn tương tác, xây dựng bằng Flutter, hệ thống backend Firebase và cấu hình multi-flavor.",
+      "p6Type": "Mã nguồn mở · Trình đọc Truyện tranh & Tiểu thuyết",
+      "p6Desc": "Ứng dụng đọc truyện tranh và tiểu thuyết hiện đại offline-first, sử dụng GetX để quản lý trạng thái, Dio để gọi API và Sqflite làm cơ sở dữ liệu lưu trữ local.",
+      "p7Type": "Mã nguồn mở · Tự động hóa Tài chính",
+      "p7Desc": "Ứng dụng tiện ích viết bằng Flutter tập trung vào quản lý, theo dõi tài chính cá nhân và các luồng tự động hóa thông minh."
     },
     "contact": {
       "title": "Hãy Cùng Xây Dựng Những Điều <1>Tuyệt Vời</1>.",
@@ -58,63 +66,78 @@
       "portfolio": "Trở về Portfolio"
     },
     "hero": {
-      "title": "Mobile Developer",
+      "title": "Flutter Developer",
       "location": "278A Hưng Lợi, Ninh Kiều, Cần Thơ",
-      "website": "github.com/roll-t"
+      "website": "www.phuoctruong.com"
     },
     "summary": {
       "title": "Tóm tắt chuyên môn",
-      "p1": "Lập trình viên di động thành thạo với <1>nền tảng kỹ thuật</1> vững chắc trong phát triển ứng dụng đa nền tảng.",
-      "p2": "Có chuyên môn đã được kiểm chứng về <1>kiến trúc phần mềm</1>, tổ chức mã sạch và áp dụng các nguyên lý OOP và SOLID để xây dựng các giải pháp có thể mở rộng và bảo trì dễ dàng.",
-      "p3": "Nhạy bén trong việc phân tích yêu cầu UI/UX và tận dụng các framework hiện đại như <1>Flutter</1> để mang lại trải nghiệm di động trực quan, hiệu suất cao và lấy người dùng làm trung tâm."
+      "p1": "<1>Flutter Developer</1> với kinh nghiệm thực chiến (production experience) trong việc thiết kế và phát triển các hệ thống video streaming phức tạp trên thiết bị di động.",
+      "p2": "Chuyên sâu về <1>kiến trúc ứng dụng di động hiệu suất cao</1> — bao gồm HLS local proxy server, Adaptive Bitrate (ABR) pipelines và các chiến lược caching đa lớp.",
+      "p3": "Nền tảng vững chắc về <1>lập trình bất đồng bộ/đồng thời (async/concurrent programming)</1>, kiểm soát và phòng ngừa race conditions, tối ưu hóa bộ nhớ cho các phiên phát video dài. Luôn ưu tiên áp dụng Clean Architecture, nguyên lý SOLID và đảm bảo tính dễ bảo trì (maintainability) lâu dài của mã nguồn."
     },
     "experience": {
       "title": "Kinh nghiệm làm việc",
       "role": "Mobile Developer",
+      "company": "CSS Cần Thơ",
       "date": "Tháng 5/2024 - Hiện tại",
-      "bullet1": "Xử lý các yêu cầu phức tạp về truyền phát đa phương tiện bằng cách triển khai <1>HTTP Live Streaming (HLS)</1>, tạo proxy cục bộ (local proxy) trên thiết bị và xây dựng các cơ chế mạng/bộ nhớ đệm mạnh mẽ để đảm bảo quá trình phát video không bị gián đoạn.",
-      "bullet2": "Thiết kế và xây dựng tính năng <1>nguồn cấp dữ liệu video (video feed)</1> với hiệu suất cao, tối ưu hóa đáng kể độ mượt mà khi cuộn và giảm thiểu dung lượng tải trước (pre-load) của video để mang lại trải nghiệm người dùng liền mạch.",
-      "bullet3": "Thiết kế các kiến trúc mã nguồn có khả năng mở rộng và dễ bảo trì bằng cách áp dụng nghiêm ngặt các nguyên lý <1>OOP và SOLID</1>.",
-      "bullet4": "Phân tích các yêu cầu UI/UX và tối ưu hóa giao diện ứng dụng để cung cấp thiết kế trực quan và phản hồi tốt.",
-      "bullet5": "Phát triển, triển khai và bảo trì các ứng dụng di động đa nền tảng, đảm bảo hiệu suất tổng thể cao, tính ổn định và trải nghiệm người dùng mượt mà.",
-      "bullet6": "Tích cực tham gia vào việc bảo trì ứng dụng liên tục, bao gồm gỡ lỗi (debugging) kỹ lưỡng, theo dõi hiệu suất và giải quyết các vấn đề tuân thủ chính sách của <1>Google Play</1> để đảm bảo các bản cập nhật diễn ra trơn tru."
+      "bullet1": "Thiết kế hệ thống phát <1>HLS production</1> tích hợp local proxy server, buffer-aware grace timer và 4-phase offline recovery — đảm bảo video phát mượt mà ngay cả khi kết nối mạng không ổn định.",
+      "bullet2": "Xây dựng video player <1>object pool</1> hỗ trợ epoch-based concurrency, debounced prefetch và platform-adaptive sizing (iOS/Android) — mang lại trải nghiệm frame-ready playback tức thì ngay khi vuốt.",
+      "bullet3": "Phân rã controller lớn nhiều concern thành các unit độc lập, dễ viết unit test thông qua <1>mixin composition</1>, mỗi unit chịu trách nhiệm cho một vai trò riêng biệt (state, lifecycle, events, network).",
+      "bullet4": "Triển khai custom <1>async semaphore + generation-guard</1> pattern để loại bỏ hoàn toàn race conditions khi vuốt nhanh, ngăn chặn native-layer crashes do các tác vụ khởi tạo cũ gây ra.",
+      "bullet5": "Xây dựng <1>offline-first progress tracker</1> với local persistence, batch sync (≤10/session), exponential-backoff retry và cơ chế atomic read/write — cam kết không mất mát dữ liệu khi ứng dụng bị force kill đột ngột.",
+      "bullet6": "Thiết kế hệ thống <1>RAM cache đa lớp</1> với chính sách explicit eviction và bounded collections nhằm tối ưu bộ nhớ, giảm GC pressure và tránh triệt để lỗi OOM trong các phiên phát dài.",
+      "bullet7": "Thiết kế <1>navigation-stack-based playback coordinator</1> để đồng bộ trạng thái tương tác (like, save, comment, view count...) xuyên suốt các màn hình đang active bằng cơ chế snapshot-safe iteration.",
+      "bullet8": "Tích hợp <1>ABR engine</1> sử dụng thuật toán EWMA bandwidth estimation và cơ chế quality capping khi preload — tránh xung đột băng thông giữa luồng phát chính và prefetch nền.",
+      "bullet9": "Áp dụng mô hình <1>Clean Architecture</1> (data / domain / presentation) kết hợp với interface-driven design và dependency injection qua GetX bindings trên tất cả các feature modules."
     },
     "projects": {
       "title": "Dự án tiêu biểu",
-      "p1Type": "Mạng xã hội giáo dục (Google Play)",
-      "p1Desc": "Mạng xã hội tương tác tập trung vào học tập qua video.",
-      "p1B1": "<1>Hiệu suất Video trên Di động:</1> Tối ưu hóa kết xuất feed và vòng đời phát video với các bộ điều khiển video được gộp (pooled) và khởi tạo bất đồng bộ có giới hạn, mang lại khả năng cuộn mượt mà và phát ổn định trong phiên dài đồng thời giảm đột biến CPU và rủi ro về nhiệt độ.",
-      "p1B2": "<1>Quản lý Tài nguyên:</1> Triển khai lưu trữ đệm nhiều lớp và phân phối video nhận biết mạng (bộ nhớ tạm + bộ nhớ đĩa, cắt tỉa bộ nhớ đệm, tối ưu hóa yêu cầu) để giảm mức sử dụng băng thông, giảm sự gia tăng bộ nhớ cục bộ và cải thiện tính nhất quán khi khởi động/phát.",
-      "p1B3": "<1>Độ tin cậy khi phát:</1> Bổ sung điều hướng an toàn theo vòng đời và các biện pháp bảo vệ dọn dẹp bộ điều khiển để ngăn chặn các phiên bản người chơi trùng lặp, tranh chấp tài nguyên (race conditions) và xung đột phát lại giữa các màn hình.",
-      "p2Type": "Cổng thông tin sinh viên (Google Play)",
-      "p2Desc": "Ứng dụng quản lý đại học toàn diện được thiết kế cho sinh viên Đại học Duy Tân truy cập hiệu quả vào thông tin và dịch vụ học thuật.",
-      "p2B1": "<1>Kiến trúc & Bảo trì:</1> Tái cấu trúc mã nguồn ứng dụng để nâng cao khả năng mở rộng, đồng thời chủ động bảo trì và gỡ lỗi ứng dụng nhằm đảm bảo hiệu suất ổn định, lâu dài.",
-      "p2B2": "<1>Tối ưu hóa Hiệu suất:</1> Xây dựng hệ thống lưu trữ đệm cục bộ mạnh mẽ và tối ưu hóa xử lý mạng để giảm thiểu đáng kể các yêu cầu API thừa, cải thiện khả năng phản hồi của ứng dụng và giảm tải cho máy chủ.",
-      "p2B3": "<1>Phát hành & Triển khai:</1> Xử lý các bản cập nhật phiên bản thường xuyên và quản lý quy trình triển khai toàn diện trên Google Play Console.",
-      "p3Type": "Ứng dụng Quản lý & Chia sẻ Liên kết (Google Play)",
-      "p3Desc": "Phát triển Keep Link, ứng dụng Flutter đa nền tảng để quản lý liên kết và chia sẻ xã hội, với kiến trúc ưu tiên ngoại tuyến, kiểm soát truy cập an toàn, điều hướng liên kết sâu (deep link) và đồng bộ hóa theo thời gian thực.",
-      "p3B1": "Xây dựng luồng dữ liệu ưu tiên ngoại tuyến (SQLite + in-memory cache) với cơ chế đồng bộ hóa ghi trực tiếp (write-through sync) lên Firebase Realtime Database để truyền dữ liệu nhanh, nhất quán trên nhiều thiết bị.",
-      "p3B2": "Phát triển luồng chia sẻ bạn bè qua liên kết sâu, mã QR và email, bao gồm toàn bộ vòng đời yêu cầu và cập nhật thời gian thực cho các danh mục được chia sẻ.",
-      "p3B3": "Triển khai định tuyến liên kết sâu mạnh mẽ và xử lý trình duyệt trong ứng dụng, đảm bảo điều hướng màn hình chính xác từ URL được chia sẻ và có phương án dự phòng tin cậy đến trình duyệt ngoài khi cần.",
-      "p3B4": "Triển khai các tính năng bảo mật với xác thực mã PIN/sinh trắc học và kiểm soát truy cập danh mục riêng tư.",
-      "p3B5": "Tối ưu hóa việc nhận và xem liên kết: phân tích cú pháp intent chia sẻ/clipboard URL, tự động tải siêu dữ liệu và cải tiến WebView (tải ưu tiên cache, chặn quảng cáo/popup, xử lý đặc biệt cho TikTok).",
-      "p3B6": "Duy trì sự ổn định của ứng dụng và quản lý chu kỳ phát hành Android trên Google Play Console, bao gồm đánh số phiên bản và tuân thủ chính sách."
+      "p1Type": "Mạng xã hội giáo dục",
+      "p1Desc": "Nền tảng học tập tương tác dạng video ngắn kiểu TikTok tích hợp phát luồng thích ứng HLS, theo dõi tiến độ học tập offline và cuộn danh sách mượt mà.",
+      "p1B1": "<1>Video Architecture:</1> Thiết lập epoch-based object pool + debounced prefetch + warm-up pre-init — đảm bảo video đạt trạng thái frame-ready ngay khi người dùng hoàn thành thao tác vuốt.",
+      "p1B2": "<1>Network Resilience:</1> Cơ chế 4-phase offline recovery kết hợp buffer-aware grace timer (3s-60s), tự động phát hiện buffer-drain sớm và auto-resume đúng vị trí khi kết nối lại.",
+      "p1B3": "<1>Local Proxy & Cache:</1> HLS local proxy server tích hợp RAM & disk cache đa tầng, hỗ trợ lazy playlist rebuild từ các segment đã tải và bounded disk eviction.",
+      "p1B4": "<1>Adaptive Bitrate (ABR):</1> Ước tính băng thông qua EWMA + network-type safety factors + quality capping khi preload — loại bỏ hiện tượng giật lag/thay đổi chất lượng video liên tục khi mạng chập chờn.",
+      "p1B5": "<1>Offline Tracking:</1> Đồng bộ dữ liệu theo batch sync, tích hợp cơ chế exponential-backoff retry, atomic read/write và checkpoint fallback để xử lý edge case player tự reset vị trí phát về 0 khi mất mạng.",
+      "p1B6": "<1>Global State Sync:</1> Sử dụng navigation-stack coordinator để đồng bộ tức thì các chỉ số tương tác (like/save/comment/lượt xem) trên toàn bộ các màn hình active qua snapshot-safe iteration.",
+      "p2Type": "Cổng thông tin sinh viên - Đại học Duy Tân",
+      "p2Desc": "Ứng dụng đại học hỗ trợ sinh viên theo dõi lịch học, lịch thi, kết quả học tập và các dịch vụ hành chính campus, phục vụ hàng nghìn người dùng hoạt động hàng ngày.",
+      "p2B1": "Tái cấu trúc (refactor) hệ thống mã nguồn cũ sang mô hình <1>Clean Architecture</1>, nâng cao khả năng scale-up ứng dụng mà không gây lỗi hồi quy (regression).",
+      "p2B2": "Xây dựng lớp <1>local caching + request deduplication</1> ở tầng Network giúp giảm tải cho server và cải thiện tốc độ phản hồi cold-start.",
+      "p2B3": "Thực hiện <1>maintenance</1> định kỳ và phát triển các tính năng mới giúp ứng dụng luôn hoạt động ổn định, fix bugs kịp thời theo yêu cầu từ phía trường học.",
+      "p2B4": "Quản lý <1>toàn bộ chu kỳ release</1> trên Google Play Console: cấu hình versioning, tuân thủ chính sách của Google và triển khai staged rollout.",
+      "p3Type": "Quản lý & Chia sẻ liên kết thông minh",
+      "p3Desc": "Ứng dụng di động Flutter đa nền tảng giúp lưu trữ, phân loại và chia sẻ các bookmark liên kết với cơ chế offline-first, bảo mật cao và đồng bộ hóa thời gian thực.",
+      "p3B1": "<1>SQLite + in-memory cache</1> tích hợp cơ chế write-through sync trực tiếp lên Firebase Realtime DB — đảm bảo dữ liệu nhất quán trên nhiều thiết bị với độ trễ gần như bằng 0.",
+      "p3B2": "<1>Chia sẻ thông tin</1> thông qua deep link, QR code và email với cơ chế điều hướng (routing) màn hình chính xác và reliable external browser fallback.",
+      "p3B3": "<1>Bảo mật tối đa</1> bằng PIN/Biometric authentication kết hợp phân quyền truy cập (private access control) cho từng danh mục lưu trữ.",
+      "p3B4": "<1>WebView ưu tiên tải từ cache</1>, tích hợp bộ chặn quảng cáo/pop-up tự chọn và tự động phân tích (parse) liên kết từ clipboard để nhập nhanh bookmark.",
+      "p3B5": "Duy trì tính ổn định của ứng dụng và quản lý chu kỳ phát hành Android trên Google Play Console, bao gồm kiểm soát phiên bản và tuân thủ chính sách."
     },
     "skills": {
       "title": "Kỹ năng",
       "stack": "Công nghệ",
-      "category1": "Phát triển Di động",
-      "desc1": "Flutter (Dart), Tích hợp Native Android (Platform Channels), Xử lý ngầm (Background Processing).",
-      "category2": "Quản lý Trạng thái",
-      "desc2": "GetX, BLoC.",
-      "category3": "Mạng & Dữ liệu",
-      "desc3": "RESTful APIs, Xử lý mạng, Xử lý lỗi, Lưu trữ cục bộ & Caching.",
-      "category4": "Hiệu suất Video trên thiết bị",
-      "desc4": "Giới hạn xử lý bất đồng bộ (async throttling), Tối ưu hóa CPU/RAM, Kiểm soát nhiệt độ (thermal control).",
-      "category5": "Phát hành & Hợp tác",
-      "desc5": "Git, Phát hành/Triển khai Google Play.",
-      "category6": "Ngôn ngữ",
-      "desc6": "Tiếng Anh."
+      "category1": "Mobile",
+      "desc1": "Flutter (Dart) · Android Native (Platform Channels)",
+      "category2": "Kiến trúc (Architecture)",
+      "desc2": "Clean Architecture · SOLID · Mixin-based Decomposition",
+      "category3": "Quản lý trạng thái (State Mgmt)",
+      "desc3": "GetX (Reactive + DI) · BLoC",
+      "category4": "Bất đồng bộ & Đồng thời (Concurrency)",
+      "desc4": "Custom Semaphore · Generation Guard · CancelableOperation",
+      "category5": "Video Streaming",
+      "desc5": "HLS (m3u8/ts) · Local Proxy · ABR · VideoPlayerController",
+      "category6": "Kết nối mạng (Networking)",
+      "desc6": "RESTful APIs · Dio · HTTP Socket · Retry / Backoff",
+      "category7": "Hiệu suất & Tối ưu (Performance)",
+      "desc7": "Object Pool · RAM Eviction · CPU/GPU Profiling · Thermal Control",
+      "category8": "Lưu trữ (Storage)",
+      "desc8": "SharedPreferences · SQLite · File I/O · Firebase Realtime DB",
+      "category9": "Triển khai & Công cụ (Delivery)",
+      "desc9": "Git · Google Play Console · CI/CD basics",
+      "category10": "Ngôn ngữ (Languages)",
+      "desc10": "English (Tiếng Anh chuyên ngành)"
     },
     "education": {
       "title": "Học vấn",
@@ -140,13 +163,14 @@
       "challenge": "Thách Thức Kỹ Thuật",
       "solution": "Giải Pháp Triển Khai",
       "visitApp": "Truy cập Google Play",
+      "visitGithub": "Xem Trên GitHub",
       "timeline": "Mốc thời gian"
     },
     "click-ed": {
       "title": "CLICK-Ed",
       "subtitle": "Mạng Xã Hội Giáo Dục Đa Kênh & Nền Tảng Short-Video Tối Ưu Cực Đỉnh",
       "role": "Flutter Mobile Developer",
-      "duration": "2024 (6 tháng)",
+      "duration": "2024 - Hiện tại",
       "overview": "CLICK-Ed là một nền tảng mạng xã hội giáo dục tích hợp đa kênh chuyên nghiệp, kết hợp giữa mô hình hỏi đáp (Q&A), hệ thống e-Learning chuyên nghiệp, phát trực tiếp bài giảng (Livestreaming) và trải nghiệm short-video tương tác cao. Ứng dụng tích hợp các tính năng nâng cao như Ví điện tử & Thanh toán (Wallet & Monetization), AI Trợ lý (ChatBot), Chợ mua bán (Marketplace) và các tương tác xã hội hoàn chỉnh.",
       "challenge": "Module Video của dự án có độ phức tạp kỹ thuật cực cao tương tự TikTok. Thách thức lớn nhất là giải quyết triệt để các vấn đề về giật lag (UI jank), rò rỉ bộ nhớ (memory leak) và tình trạng nghẽn băng thông ở môi trường mạng yếu khi người dùng lướt danh sách video ngắn liên tục.",
       "solution": "Tôi thiết kế kiến trúc Local HTTP Proxy Server (shelf) chạy trực tiếp trên thiết bị để đánh chặn luồng phát và phân phối bộ nhớ đệm. Đồng thời phát triển Video Player Pool Manager duy trì số lượng controller cố định bằng GetX và lắng nghe giải tỏa RAM chủ động. Kết hợp Thuật toán Tải trước Thông minh sử dụng Epoch Tracking và cơ chế nhường băng thông theo thời gian thực cùng hỗ trợ phân giải động Adaptive Bitrate (ABR) giúp tối ưu trải nghiệm video mượt mà.",
@@ -163,7 +187,7 @@
       "title": "MYDTU MOBILE APP",
       "subtitle": "Cổng Thông Tin Đa Năng & Đồng Bộ Hóa Thời Gian Thực",
       "role": "Flutter Mobile Developer",
-      "duration": "2023 (8 tháng)",
+      "duration": "2023 - Hiện tại (Bảo trì)",
       "overview": "MyDTU là ứng dụng – Cổng thông tin tích hợp đa năng phục vụ hàng chục nghìn sinh viên và giảng viên trường Đại học Duy Tân. Ứng dụng đồng bộ hóa toàn diện quy trình quản lý học tập, giảng dạy, tra cứu hồ sơ đa tầng, tài chính và lịch trình cá nhân theo thời gian thực, tích hợp hệ thống phân quyền động Dynamic Role-Based thích ứng theo vai trò người dùng.",
       "challenge": "Thách thức lớn nhất của dự án là xử lý các biểu mẫu thông tin cực kỳ phức tạp (hồ sơ đa tầng) gây khó khăn khi nhập liệu, việc bảo mật dữ liệu truyền tải khỏi nguy cơ giả mạo API, và việc xử lý tìm kiếm dữ liệu cục bộ khối lượng lớn mà không gây gián đoạn (lag) giao diện người dùng.",
       "solution": "Tôi đã phát triển Form Automation Mixin (ScrollToError) kết hợp ExpandController giúp xử lý mượt mà các form dài. Về bảo mật, tôi áp dụng mã hóa Triple DES (3DES - ECB - PKCS7) và MD5 sinh Signature Token cho Header API. Bên cạnh đó, phát triển Local Search Algorithm (Debouncing + Diacritics Removal) mang lại trải nghiệm tìm kiếm Zero Lag, và thiết lập Centralized Dio Client hỗ trợ xử lý nhiều luồng song song qua Future.wait.",
@@ -196,7 +220,7 @@
       "title": "RealJobs",
       "subtitle": "Hệ Sinh Thái Công Nghệ Tuyển Dụng & Kết Nối Giáo Dục Di Động",
       "role": "Flutter Mobile Developer",
-      "duration": "2024 (8 tháng)",
+      "duration": "2024 - Hiện tại (Bảo trì)",
       "overview": "RealJobs là một hệ sinh thái công nghệ tuyển dụng và kết nối giáo dục toàn diện dành cho thiết bị di động (iOS & Android). Ứng dụng đóng vai trò như một cầu nối đa chiều giữa Doanh nghiệp (Employers), Sinh viên/Ứng viên (Candidates/Students), Nhà trường/Giảng viên (Universities/Instructors) và Cựu sinh viên (Alumni). Dự án giải quyết bài toán quản lý toàn bộ vòng đời từ tìm kiếm việc làm, thực tập sinh, lên lịch phỏng vấn, đánh giá thực tập cho đến quản trị nhân sự doanh nghiệp.",
       "challenge": "Thách thức chính là phát triển, kiểm thử và vận hành hiệu quả ứng dụng quy mô lớn với hơn 60 module màn hình độc lập và logic phân quyền vai trò phức tạp. Đồng thời, hệ thống yêu cầu kết nối mạng tối ưu, khả năng vận hành đa môi trường độc lập và tính bảo mật dữ liệu đầu vào cực kỳ chặt chẽ.",
       "solution": "Tôi áp dụng Clean Architecture & GetX cho kiến trúc Modular cho phép mở rộng linh hoạt. Cấu hình độc lập 4 môi trường Dev/STG/Test/Prod qua flutter_flavorizr. Xây dựng cơ chế Network Resiliency với AuthInterceptor + connectivity_plus giúp xử lý mất kết nối mượt mà. Áp dụng mã hóa API Payload Signature chống giả mạo, cùng các bộ render HTML động và tối ưu hóa UX bằng shimmer loading.",
@@ -207,6 +231,54 @@
         "Quản Lý Lịch Phỏng Vấn Thông Minh (Interview & Slot Scheduling) & Sự Kiện Tuyển Dụng",
         "Hệ Thống Liên Lạc Đa Kênh: Chat nội bộ, Email tự động & Theo dõi lịch sử gửi thư",
         "Kiến trúc Modular Clean Architecture vững chắc với hơn 60 module màn hình"
+      ]
+    },
+    "food-quest": {
+      "title": "FoodQuest",
+      "subtitle": "Ứng Dụng Khám Phá Món Ăn Tương Tác & Multi-flavor Social Dining",
+      "role": "Flutter Mobile Developer",
+      "duration": "2023 (4 tháng)",
+      "overview": "FoodQuest là ứng dụng di động tìm kiếm và khám phá ẩm thực tương tác giúp người dùng dễ dàng tìm kiếm, chia sẻ và kết nối với các trải nghiệm ăn uống địa phương. Kết nối trực tiếp với backend Firebase, ứng dụng cung cấp bản đồ định vị thời gian thực, bảng tin chia sẻ mạng xã hội và quản lý hồ sơ khẩu vị cá nhân.",
+      "challenge": "Thiết lập cấu trúc Multi-Flavors chuyên nghiệp để đóng gói và phát hành dễ dàng các môi trường phát triển (Dev, Staging, Production) độc lập không gây nhầm lẫn cấu hình API hay Firebase credentials. Đồng thời tối ưu truy vấn định vị bản đồ và tải mượt danh sách ảnh ẩm thực độ phân giải lớn.",
+      "solution": "Tôi thiết kế dự án sử dụng FVM để kiểm soát phiên bản Flutter nhất quán và chia tách môi trường đa flavor liên kết độc lập các cấu hình Firebase. Tích hợp Google Maps API kèm các truy vấn địa lý tối ưu (Geofencing) và triển khai bộ nhớ đệm ảnh chuyên dụng để đảm bảo lướt tin trơn tru.",
+      "features": [
+        "Cấu hình Multi-flavors chuyên nghiệp (Môi trường Dev, Staging, Production độc lập)",
+        "Tích hợp Firebase Auth bảo mật cao và đồng bộ hóa Cloud Firestore thời gian thực",
+        "Bản đồ định vị và tìm kiếm địa điểm ẩm thực thông minh qua Geolocator & Google Maps API",
+        "Bảng tin khám phá ẩm thực trực quan với cơ chế lưu ảnh đệm local bất đồng bộ",
+        "Cấu hình FVM (Flutter Version Manager) cho tính nhất quán tuyệt đối trong luồng CI/CD"
+      ]
+    },
+    "bookara": {
+      "title": "Bookara",
+      "subtitle": "Trình Đọc Truyện Tranh & Tiểu Thuyết Cao Cấp Offline-First",
+      "role": "Flutter Mobile Developer",
+      "duration": "2023 (6 tháng)",
+      "overview": "Bookara (reading_app) là ứng dụng đọc truyện hiện đại, mượt mà dành riêng cho độc giả truyện tranh và tiểu thuyết. Hướng tới mô hình ngoại tuyến (Offline-First), ứng dụng mang lại trải nghiệm tải trang tức thì, tự động đánh dấu trang sách, thay đổi chủ đề giao diện đọc tùy biến sâu và các hiệu ứng chuyển động vô cùng mượt mà.",
+      "challenge": "Xử lý kết xuất khối lượng ảnh truyện tranh dung lượng lớn và render các tài liệu HTML tiểu thuyết phức tạp mà không gây tràn bộ nhớ (memory leaks) hay tụt khung hình (frame drops). Đảm bảo hoạt động offline 100% và tự động đồng bộ hóa bookmark khi có kết nối internet trở lại.",
+      "solution": "Tôi áp dụng GetX quản lý trạng thái phản hồi cực nhanh và tổ chức Sqflite làm lớp cơ sở dữ liệu local lưu trữ kho truyện ngoại tuyến. Tích hợp thư viện Dio kết hợp custom interceptors để tải trước dữ liệu thông minh, và viết bộ xử lý HTML động để render nội dung tiểu thuyết không tì vết.",
+      "features": [
+        "Hỗ trợ đọc song song hai định dạng: Ảnh truyện tranh độ phân giải lớn và HTML tiểu thuyết động",
+        "Kiến trúc GetX reactive mạnh mẽ kết hợp Binding tiêm phụ thuộc (Dependency Injection) linh hoạt",
+        "Hệ thống lưu trữ SQLite (Sqflite) ngoại tuyến tối ưu, theo dõi thư viện và tiến trình đọc",
+        "Lớp mạng Dio chuyên dụng tích hợp cơ chế cache phản hồi và tự động thử lại khi mất mạng",
+        "Giao diện tùy chỉnh chế độ đọc sâu (Đọc ban đêm, chủ đề đọc sách, tùy biến kích cỡ chữ & phông chữ)"
+      ]
+    },
+    "auto-fin": {
+      "title": "AutoFin",
+      "subtitle": "Trợ Lý Quản Lý Tài Chính Cá Nhân & Luồng Tự Động Hóa Thông Minh",
+      "role": "Lead Mobile Developer",
+      "duration": "2024 (3 tháng)",
+      "overview": "AutoFin là giải pháp tài chính di động thông minh được thiết kế nhằm đơn giản hóa việc quản lý và tối ưu hóa chi tiêu cá nhân thông qua tự động hóa. Ứng dụng giúp người dùng ghi chép chi tiêu nhanh chóng, lên lịch tự động các luồng giao dịch, hiển thị thống kê ngân sách trực quan và xuất báo cáo kế toán chuyên nghiệp.",
+      "challenge": "Kiến trúc hệ thống tự động hóa tác vụ chạy ngầm ổn định, nhẹ nhàng trên thiết bị di động và đảm bảo tính bảo mật và riêng tư tối đa đối với dữ liệu tài chính nhạy cảm lưu dưới máy.",
+      "solution": "Thiết kế bộ lập lịch tự động tùy biến (Custom Automation Scheduler) chạy ngầm gửi cảnh báo thông minh. Áp dụng cơ sở dữ liệu mã hóa cục bộ an toàn và dùng GetX để tinh gọn giao diện tương tác tức thì.",
+      "features": [
+        "Ghi chép giao dịch tài chính thông minh kèm thẻ phân loại danh mục tùy biến",
+        "Hệ thống tự động hóa lập lịch giao dịch định kỳ và đẩy cảnh báo nhắc nhở chạy ngầm",
+        "Biểu đồ phân tích tài chính trực quan cập nhật tiến trình ngân sách theo thời gian thực",
+        "Cơ sở dữ liệu lưu trữ local-first bảo mật tối đa, xuất báo cáo dễ dàng (CSV / Excel)",
+        "Kiến trúc thiết kế sẵn sàng tích hợp các cổng Open Banking API trong tương lai"
       ]
     }
   }

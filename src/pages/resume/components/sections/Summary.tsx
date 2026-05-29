@@ -12,19 +12,22 @@ export function Summary() {
         </div>
         <div className="max-w-3xl">
           <p className="text-lg md:text-xl font-body leading-relaxed text-on-surface-variant mb-4">
-            <Trans i18nKey="resume.summary.p1">
-              Là một <span className="text-on-surface font-semibold">Mobile Developer</span> thành thạo với nền tảng kỹ thuật vững chắc trong việc phát triển ứng dụng đa nền tảng (cross-platform).
-            </Trans>
+            <Trans
+              i18nKey="resume.summary.p1"
+              components={{ 1: <span className="text-on-surface font-semibold" /> }}
+            />
           </p>
           <p className="text-lg md:text-xl font-body leading-relaxed text-on-surface-variant mb-4">
-            <Trans i18nKey="resume.summary.p2">
-              Có chuyên môn sâu sắc và đã được chứng minh về <span className="text-on-surface font-semibold">kiến trúc phần mềm</span>, tổ chức mã nguồn sạch (clean code) và áp dụng các nguyên lý OOP, SOLID để xây dựng các giải pháp có khả năng mở rộng và dễ bảo trì.
-            </Trans>
+            <Trans
+              i18nKey="resume.summary.p2"
+              components={{ 1: <span className="text-on-surface font-semibold" /> }}
+            />
           </p>
           <p className="text-lg md:text-xl font-body leading-relaxed text-on-surface-variant">
-            <Trans i18nKey="resume.summary.p3">
-              Thành thạo trong việc phân tích các yêu cầu UI/UX và tận dụng các framework hiện đại như <span className="text-on-surface font-semibold">Flutter</span> để mang lại trải nghiệm di động trực quan, hiệu suất cao và lấy người dùng làm trung tâm.
-            </Trans>
+            <Trans
+              i18nKey="resume.summary.p3"
+              components={{ 1: <span className="text-on-surface font-semibold" /> }}
+            />
           </p>
         </div>
       </div>

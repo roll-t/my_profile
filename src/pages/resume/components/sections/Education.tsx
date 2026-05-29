@@ -15,9 +15,10 @@ export function Education() {
         </h4>
         <p className="text-primary text-sm mb-4">{t('resume.education.school')}</p>
         <p className="text-on-surface-variant text-sm leading-relaxed">
-          <Trans i18nKey="resume.education.desc">
-            <strong className="text-on-surface">Các môn học liên quan:</strong> Lập trình hướng đối tượng (OOP), Kiến trúc phần mềm, Phân tích và Thiết kế Hệ thống, Quản trị Cơ sở dữ liệu.
-          </Trans>
+          <Trans
+            i18nKey="resume.education.desc"
+            components={{ 1: <strong className="text-on-surface" /> }}
+          />
         </p>
       </div>
     </section>

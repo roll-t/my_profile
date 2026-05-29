@@ -17,7 +17,7 @@ i18n
         translation: viTranslation,
       },
     },
-    lng: 'vi', // set default language to vi
+    lng: 'en', // set default language to en
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // react already safes from xss
